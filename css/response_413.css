@@ -24,7 +24,8 @@
 
     .form .submit_btn
     {
-        width: 100%;  min-width: 100%;
+        width: 100%;
+        min-width: 100%;
     }
 
 
@@ -52,27 +53,32 @@
     .text_block h1,
     .text_block > .title
     {
-        font-size: 24px !important;  line-height: 28px !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
     }
 
     .text_block h2
     {
-        font-size: 22px;  line-height: 26px;
+        font-size: 22px;
+        line-height: 26px;
     }
 
     .text_block h3
     {
-        font-size: 20px;  line-height: 24px;
+        font-size: 20px;
+        line-height: 24px;
     }
 
     .text_block h4
     {
-        font-size: 18px;  line-height: 2px;
+        font-size: 18px;
+        line-height: 2px;
     }
 
     .text_block h5
     {
-        font-size: 16px;  line-height: 20px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
 
@@ -88,7 +94,8 @@
     ---------------*/
     header .top
     {
-        height: 40px;  padding: 0;
+        height: 40px;
+        padding: 0;
     }
 
 
@@ -99,14 +106,21 @@
 
     header .account .mob_link
     {
-        display: block;  width: 40px;  height: 40px;  background: url(../images/ic_advantage7.png) 50%/auto 24px no-repeat;
+        display: block;
+
+        width: 40px;
+        height: 40px;
+
+        background: url(../images/ic_advantage7.png) 50%/auto 24px no-repeat;
     }
 
 
 
     header .links
     {
-        top: 0;  column-count: 1;
+        top: 0;
+
+        column-count: 1;
     }
 
     header .menu
@@ -118,13 +132,16 @@
 
     header .logo img
     {
-        width: 120px;  margin-left: -5px;
+        width: 120px;
+        margin-left: -5px;
     }
 
 
     header .callback_link
     {
-        right: 15px;  padding: 0 15px;
+        right: 15px;
+
+        padding: 0 15px;
     }
 
 
@@ -150,7 +167,9 @@
 
     .main_slider .slide .title span
     {
-        line-height: 38px;  height: 42px;
+        line-height: 38px;
+
+        height: 42px;
     }
 
 
@@ -162,12 +181,15 @@
 
     .cats_wall .grid
     {
-        --promo_block_height: 100px;  grid-template-columns: repeat(2, 1fr);
+        --promo_block_height: 100px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .cats_wall .item
     {
-        font-size: 13px;  padding: 12px;
+        font-size: 13px;
+
+        padding: 12px;
     }
 
     .cats_wall .item .sub_links
@@ -189,7 +211,8 @@
 
     .advantages .item .icon img
     {
-        max-width: 55px;  max-height: 50px;
+        max-width: 55px;
+        max-height: 50px;
     }
 
     .advantages .flex .item .name
@@ -201,19 +224,27 @@
 
     .about_text .bottom_text
     {
-        font-size: 16px;  line-height: 22px;  padding: 15px 20px;
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 15px 20px;
     }
 
 
 
     .cart_info table td.image
     {
-        width: 100%;  padding-bottom: 0;
+        width: 100%;
+        padding-bottom: 0;
     }
 
     .cart_info table td.name
     {
-        width: 100%;  padding-right: 20px;  padding-left: 20px;  text-align: center;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        text-align: center;
     }
 
 
@@ -221,23 +252,31 @@
     .cart_info table td.amount,
     .cart_info table td.price.total
     {
-        width: 50%;  text-align: center;  justify-content: center;
+        width: 50%;
+
+        text-align: center;
+
+        justify-content: center;
     }
 
     .cart_info table td.price.total
     {
-        width: 100%;  min-height: 0;  padding-left: 20px;
+        width: 100%;
+        min-height: 0;
+        padding-left: 20px;
     }
 
     .cart_info table td.price .old
     {
-        width: auto;  margin-right: 15px;
+        width: auto;
+        margin-right: 15px;
     }
 
 
     .cart_info table td.empty
     {
-        width: 100%;  padding-left: 20px;
+        width: 100%;
+        padding-left: 20px;
     }
 
     .cart_info table td.empty .flex
@@ -255,7 +294,8 @@
 
     .cart_info .promocode .title
     {
-        font-size: 20px;  line-height: 22px;
+        font-size: 20px;
+        line-height: 22px;
     }
 
     .cart_info .promocode .form .input
@@ -265,13 +305,18 @@
 
     .cart_info .promocode .form .submit
     {
-        width: 100%;  margin-top: 10px;  margin-left: 0;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
     }
 
 
     .cart_info .cart_total .total
     {
-        font-size: 22px;  line-height: 26px;  margin-top: 10px;
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-top: 10px;
     }
 
 
@@ -302,7 +347,9 @@
 
     .products .product .price .old
     {
-        display: block;  margin-right: 0;
+        display: block;
+
+        margin-right: 0;
     }
 
 
@@ -318,7 +365,8 @@
 
     .products .product .stickers
     {
-        top: 5px;  right: 5px;
+        top: 5px;
+        right: 5px;
     }
 
 
@@ -326,7 +374,10 @@
     .pagination a,
     .pagination .sep
     {
-        line-height: 38px;  width: 40px;  height: 40px;
+        line-height: 38px;
+
+        width: 40px;
+        height: 40px;
     }
 
 
@@ -338,13 +389,17 @@
 
     .lk .personal .form .cancel
     {
-        width: 100%;  margin-left: 0;  text-align: center;
+        width: 100%;
+        margin-left: 0;
+
+        text-align: center;
     }
 
 
     .lk .addresses .title .add_adres_link
     {
-        width: 100%;  margin: 10px auto 0;
+        width: 100%;
+        margin: 10px auto 0;
     }
 
     .lk .addresses .flex .adres_block
@@ -366,26 +421,35 @@
     .lk .orders .order .cart_info table td.amount,
     .lk .orders .order .cart_info table td.price
     {
-        width: 50%;  padding: 20px;  text-align: center;
+        width: 50%;
+        padding: 20px;
+
+        text-align: center;
     }
 
     .lk .orders .order .cart_info table td.price:before,
     .lk .orders .order .cart_info table td.amount:before
     {
-        width: 100%;  padding: 0 20px;  text-align: center;
+        width: 100%;
+        padding: 0 20px;
+
+        text-align: center;
     }
 
 
 
     .action_form .title
     {
-        font-size: 20px;  margin-bottom: 20px;
+        font-size: 20px;
+
+        margin-bottom: 20px;
     }
 
 
     .product_info .features .item .name
     {
-        width: 100%;  padding: 0;
+        width: 100%;
+        padding: 0;
     }
 
     .product_info .features .item .val
@@ -396,7 +460,8 @@
 
     .product_info .info .price
     {
-        font-size: 28px;  line-height: 32px;
+        font-size: 28px;
+        line-height: 32px;
     }
 
 
@@ -425,7 +490,10 @@
 
     .product_info .info .buy_link
     {
-        font-size: 15px;  line-height: 54px;  height: 54px;
+        font-size: 15px;
+        line-height: 54px;
+
+        height: 54px;
     }
 
 
@@ -452,7 +520,12 @@
 
     .product_info .description
     {
-        font-size: 14px;  font-weight: normal;  line-height: 20px;  line-height: 20px;  padding: 18px 20px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        line-height: 20px;
+
+        padding: 18px 20px;
     }
 
 
@@ -471,19 +544,25 @@
 
     .delivery_info .head .info
     {
-        font-size: 14px;  margin-bottom: 30px;
+        font-size: 14px;
+
+        margin-bottom: 30px;
     }
 
     .delivery_info .head .info .title
     {
-        font-size: 24px;  line-height: 26px;
+        font-size: 24px;
+        line-height: 26px;
     }
 
 
 
     .delivery_info .head .links a
     {
-        width: 100%;  height: auto;  min-height: 80px;  padding: 10px 15px 10px 110px;
+        width: 100%;
+        height: auto;
+        min-height: 80px;
+        padding: 10px 15px 10px 110px;
     }
 
     .delivery_info .head .links a .name
@@ -500,7 +579,9 @@
 
     .delivery_info .time_info .name
     {
-        font-size: 18px;  font-weight: 600;  line-height: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
     }
 
     .delivery_info .time_info .flex
@@ -522,7 +603,8 @@
 
     .delivery_info .delivery_steps .flex .item:nth-child(6)
     {
-        font-size: 16px;  line-height: 22px;
+        font-size: 16px;
+        line-height: 22px;
     }
 
 
@@ -546,7 +628,9 @@
 
     .team .item .foto
     {
-        width: 166px;  height: 166px;  margin: -83px auto 0;
+        width: 166px;
+        height: 166px;
+        margin: -83px auto 0;
     }
 
     .team .item .name
@@ -591,7 +675,10 @@
     ---------------*/
     footer .col_left
     {
-        width: 100%;  margin-bottom: 20px;  text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: center;
     }
 
     footer .col_left > * + *
@@ -608,7 +695,9 @@
 
     footer .contacts
     {
-        width: 100%;  text-align: center;
+        width: 100%;
+
+        text-align: center;
     }
 
 
@@ -620,7 +709,10 @@
 
     footer .socials
     {
-        width: 100%;  margin-top: 15px;  justify-content: center;
+        width: 100%;
+        margin-top: 15px;
+
+        justify-content: center;
     }
 
 
@@ -636,13 +728,17 @@
 
     .modal .links a
     {
-        font-size: 16px;  line-height: 50px;  height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+
+        height: 50px;
     }
 
 
 
     #add_adres_modal
     {
-        padding-right: 25px;  padding-left: 25px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 }

@@ -342,6 +342,13 @@
 
 
 
+    .products .product .favorite_btn
+    {
+        top: 9px;
+        left: 9px;
+    }
+
+
     .products .product .thumb
     {
         height: 175px;

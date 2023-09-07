@@ -3223,6 +3223,49 @@ aside > * + *
 }
 
 
+.products .product .favorite_btn
+{
+    position: absolute;
+    z-index: 3;
+    top: 19px;
+    left: 19px;
+
+    display: flex;
+
+    width: 28px;
+    height: 28px;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.products .product .favorite_btn img
+{
+    display: block;
+
+    width: 28px;
+    height: 28px;
+}
+
+.products .product .favorite_btn.active img,
+.products .product .favorite_btn img + img
+{
+    display: none;
+}
+
+.products .product .favorite_btn.active img + img
+{
+    display: block;
+}
+
+
 .products .product .stickers
 {
     position: absolute;

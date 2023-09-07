@@ -232,6 +232,14 @@ $(function () {
 			}
 		}
 	})
+
+
+	// Товар в избранное
+	$('.product .favorite_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+	})
 })
 
 

@@ -253,6 +253,12 @@
         padding: 15px;
     }
 
+    .products .product .favorite_btn
+    {
+        top: 15px;
+        left: 15px;
+    }
+
     .products .product .stickers
     {
         top: 15px;

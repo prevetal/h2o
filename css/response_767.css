@@ -143,6 +143,12 @@
     }
 
 
+    header .favorite_link
+    {
+        height: 40px;
+    }
+
+
     header .info
     {
         padding: 15px 0;

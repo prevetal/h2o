@@ -96,15 +96,38 @@
     /*---------------
         Header
     ---------------*/
+    header .top
+    {
+        height: 40px;
+        padding: 0;
+    }
+
+
     header .top .cont
     {
-        padding-right: 180px;
+        padding-right: 232px;
+    }
+
+
+    header .account > *
+    {
+        display: none;
+    }
+
+    header .account .mob_link
+    {
+        display: block;
+
+        width: 40px;
+        height: 40px;
+
+        background: url(../images/ic_advantage7.png) 50%/auto 24px no-repeat;
     }
 
 
     header .cart_link
     {
-        width: 160px;
+        width: 220px;
     }
 
     header .cart_link span

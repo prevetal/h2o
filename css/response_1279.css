@@ -55,19 +55,22 @@
 
     header .menu
     {
-        width: calc(100% - 145px);
-        margin-left: -20px;
+        width: calc(100% - 202px);
+        margin-left: -16px;
     }
 
     header .menu .item > a
     {
-        padding: 10px 20px;
+        padding: 10px 16px;
     }
 
 
     header .cart_link
     {
+        width: 238px;
         margin-right: -20px;
+        padding-right: 68px;
+        padding-left: 20px;
     }
 
 

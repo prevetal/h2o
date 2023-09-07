@@ -114,7 +114,7 @@
 
     header .top .cont
     {
-        padding-right: 205px;
+        padding-right: 260px;
     }
 
 
@@ -260,6 +260,15 @@
     header .cart_link:after
     {
         display: none;
+    }
+
+
+    header .favorite_link
+    {
+        bottom: auto;
+
+        height: 48px;
+        margin: 0;
     }
 
 

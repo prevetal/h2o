@@ -825,6 +825,12 @@
     }
 
 
+    .product_info .info .favorite_btn
+    {
+        margin-top: 0;
+    }
+
+
     .product_info .description
     {
         line-height: 26px;

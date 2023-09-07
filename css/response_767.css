@@ -833,12 +833,22 @@
     .product_info .info .total_price
     {
         font-size: 15px;
+
+        margin-right: auto;
+        margin-left: 20px;
     }
 
     .product_info .info .buy_link
     {
-        width: auto;
+        width: calc(100% - 52px);
         min-width: 180px;
+        margin-top: 10px;
+    }
+
+
+    .product_info .info .favorite_btn
+    {
+        margin-top: 10px;
     }
 
 

@@ -1,0 +1,21 @@
+<svg width="55" height="33" viewBox="0 0 55 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 41">
+<g id="Group 26">
+<g id="Rectangle 29">
+<mask id="path-1-inside-1_2202_10" fill="white">
+<rect x="16" width="26" height="26" rx="1"/>
+</mask>
+<rect x="16" width="26" height="26" rx="1" fill="white" stroke="#397AC0" stroke-width="4" mask="url(#path-1-inside-1_2202_10)"/>
+</g>
+<path id="Rectangle 30" d="M48.7979 11C49.4794 11 50.1109 11.3468 50.4775 11.9141L50.5469 12.0303L54 18.2588V25H41V11H48.7979Z" fill="white" stroke="#397AC0" stroke-width="2"/>
+<circle id="Ellipse 4" cx="25.2617" cy="27.5" r="4.5" fill="white" stroke="#397AC0" stroke-width="2"/>
+<circle id="Ellipse 5" cx="46.5" cy="27.5" r="4.5" fill="white" stroke="#397AC0" stroke-width="2"/>
+</g>
+<path id="Ellipse 6" d="M29.5 4.67676C31.0631 6.6739 32.6687 8.15165 33.8291 9.40332C35.2267 10.9109 35.9999 12.0974 36 13.7139C36 17.1582 33.1174 20 29.5 20C25.8826 20 23 17.1582 23 13.7139C23.0001 12.0974 23.7733 10.9109 25.1709 9.40332C26.3313 8.15165 27.9369 6.6739 29.5 4.67676Z" fill="white" stroke="#397AC0" stroke-width="2"/>
+<g id="Group 40">
+<path id="Line 40" d="M12 6L3 6" stroke="#397AC0" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 41" d="M14 13L5 13" stroke="#397AC0" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 42" d="M10 20L1 20" stroke="#397AC0" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

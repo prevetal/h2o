@@ -115,13 +115,13 @@ html
 
 body
 {
-    font-family: var(--font_family);
-    font-size: var(--font_size);
-
     height: 100%;
     min-height: -moz-available;
     min-height: -webkit-fill-available;
     min-height:         fill-available;
+
+    font-family: var(--font_family);
+    font-size: var(--font_size);
 
     transition: opacity .2s linear;
 
@@ -216,10 +216,10 @@ body.show
 
 .breadcrumbs
 {
+    margin-bottom: 10px;
+
     font-size: 13px;
     line-height: 17px;
-
-    margin-bottom: 10px;
 
     color: #6a6a6a;
 }
@@ -252,11 +252,11 @@ body.show
 
 .page_title
 {
+    margin-bottom: 30px;
+
     font-size: var(--font_size_title);
     font-weight: 400;
     line-height: normal;
-
-    margin-bottom: 30px;
 }
 
 .page_desc
@@ -304,8 +304,6 @@ body.show
 
 .pagination
 {
-    line-height: 41px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -313,6 +311,8 @@ body.show
     justify-content: flex-start;
 
     margin-top: 21px;
+
+    line-height: 41px;
 }
 
 .pagination.center
@@ -333,13 +333,13 @@ body.show
 .pagination a,
 .pagination .sep
 {
-    font-size: 14px;
-    line-height: 41px;
-
     display: inline-block;
 
     width: 43px;
     height: 43px;
+
+    font-size: 14px;
+    line-height: 41px;
 
     transition: .2s linear;
     text-align: center;
@@ -415,10 +415,10 @@ body.show
 
 .block_head
 {
+    margin-bottom: 40px;
+
     font-size: 18px;
     font-weight: 600;
-
-    margin-bottom: 40px;
 }
 
 .block_head.center
@@ -596,9 +596,9 @@ body.show
 
 .form .label
 {
-    font-weight: 700;
-
     margin-bottom: 10px;
+
+    font-weight: 700;
 }
 
 
@@ -629,13 +629,13 @@ body.show
 
 .form .input
 {
-    font: var(--font_size) var(--font_family);
-
     display: block;
 
     width: 100%;
     height: 54px;
     padding: 0 20px;
+
+    font: var(--font_size) var(--font_family);
 
     transition: .2s linear;
 
@@ -647,13 +647,13 @@ body.show
 
 .form textarea
 {
-    font: var(--font_size) var(--font_family);
-
     display: block;
 
     width: 100%;
     height: 128px;
     padding: 10px 24px;
+
+    font: var(--font_size) var(--font_family);
 
     resize: none;
     transition: .2s linear;
@@ -701,10 +701,10 @@ body.show
 
 .form .error_text
 {
+    margin-top: 5px;
+
     font-size: 14px;
     line-height: 20px;
-
-    margin-top: 5px;
 
     color: var(--form_error_color);
 }
@@ -712,9 +712,9 @@ body.show
 
 .form .exp
 {
-    font-size: 14px;
-
     margin-top: 10px;
+
+    font-size: 14px;
 }
 
 
@@ -739,14 +739,14 @@ body.show
 .form input[type=checkbox] + label,
 .form input[type=radio] + label
 {
-    font-size: 14px;
-
     position: relative;
 
     display: table-cell;
 
     height: 26px;
     padding-left: 40px;
+
+    font-size: 14px;
 
     cursor: pointer;
     text-align: left;
@@ -835,8 +835,6 @@ body.show
 
 .form .nice-select .current
 {
-    line-height: 52px;
-
     position: relative;
 
     display: block;
@@ -844,6 +842,8 @@ body.show
 
     height: 54px;
     padding: 0 56px 0 24px;
+
+    line-height: 52px;
 
     cursor: pointer;
     transition: .2s linear;
@@ -964,14 +964,14 @@ body.show
 
 .form input[type=file] + label .btn
 {
-    font-size: 14px;
-    line-height: 47px;
-
     display: block;
 
     width: 147px;
     height: 47px;
     padding: 0 24px;
+
+    font-size: 14px;
+    line-height: 47px;
 
     transition: .2s linear;
     text-align: center;
@@ -988,12 +988,12 @@ body.show
 
 .form input[type=file] + label .path
 {
-    line-height: 47px;
-
     overflow: hidden;
 
     width: calc(100% - 160px);
     margin-left: auto;
+
+    line-height: 47px;
 
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1004,13 +1004,13 @@ body.show
 
 .form .recovery_link
 {
-    font-size: 13px;
-
     position: absolute;
     top: -15px;
     right: 0;
 
     display: inline-block;
+
+    font-size: 13px;
 
     vertical-align: top;
 
@@ -1037,13 +1037,13 @@ body.show
 
 .form .submit_btn
 {
-    font: 600 18px/61px var(--font_family);
-
     display: inline-block;
 
     min-width: 305px;
     height: 61px;
     padding: 0 30px;
+
+    font: 600 18px/61px var(--font_family);
 
     cursor: pointer;
     transition: .2s linear;
@@ -1087,11 +1087,11 @@ body.show
 .text_block h1,
 .text_block > .title
 {
+    margin-bottom: 20px;
+
     font-size: 36px;
     font-weight: 400;
     line-height: 40px;
-
-    margin-bottom: 20px;
 }
 
 .text_block h1 span,
@@ -1123,11 +1123,11 @@ body.show
 
 .text_block h2
 {
+    margin-bottom: 20px;
+
     font-size: 30px;
     font-weight: 400;
     line-height: 34px;
-
-    margin-bottom: 20px;
 }
 
 .text_block h1 + h2
@@ -1138,11 +1138,11 @@ body.show
 
 .text_block h3
 {
+    margin-bottom: 20px;
+
     font-size: 26px;
     font-weight: 400;
     line-height: 30px;
-
-    margin-bottom: 20px;
 }
 
 .text_block h1 + h3,
@@ -1154,11 +1154,11 @@ body.show
 
 .text_block h4
 {
+    margin-bottom: 20px;
+
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-
-    margin-bottom: 20px;
 }
 
 .text_block h1 + h4,
@@ -1171,11 +1171,11 @@ body.show
 
 .text_block h5
 {
+    margin-bottom: 20px;
+
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-
-    margin-bottom: 20px;
 }
 
 .text_block h1 + h5,
@@ -1189,11 +1189,11 @@ body.show
 
 .text_block h6
 {
+    margin-bottom: 20px;
+
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-
-    margin-bottom: 20px;
 }
 
 .text_block h1 + h6,
@@ -1284,12 +1284,12 @@ body.show
 
 .text_block figure figcaption
 {
-    font-size: 14px;
-    line-height: 17px;
-
     display: block;
 
     margin-top: 10px;
+
+    font-size: 14px;
+    line-height: 17px;
 
     opacity: .5;
 }
@@ -1313,13 +1313,13 @@ body.show
 
 .text_block table th
 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-
     position: relative;
 
     padding: 20px 25px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
 
     text-align: left;
     vertical-align: middle;
@@ -1342,9 +1342,9 @@ body.show
 
 .text_block table td
 {
-    line-height: 20px;
-
     padding: 20px 25px;
+
+    line-height: 20px;
 
     text-align: left;
     vertical-align: middle;
@@ -1356,12 +1356,12 @@ body.show
 .text_block blockquote,
 .text_block q
 {
-    font-weight: 600;
-
     display: block;
 
     width: 100%;
     padding: 15px 20px;
+
+    font-weight: 600;
 
     color: #fff;
     background: #0a8dd8;
@@ -1470,16 +1470,16 @@ body.show
 
 .text_block ol li:before
 {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 30px;
-
     position: absolute;
     top: 0;
     left: 0;
 
     width: 30px;
     height: 30px;
+
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
 
     content: counter(li)'.';
     counter-increment: li;
@@ -1628,14 +1628,14 @@ body.show
 
 .tooltip .icon
 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 23px;
-
     display: block;
 
     width: 25px;
     height: 25px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
 
     cursor: help;
     transition: .2s linear;
@@ -1647,9 +1647,6 @@ body.show
 
 .tooltip .text
 {
-    font-size: 14px;
-    line-height: 18px;
-
     position: absolute;
     z-index: 99;
     top: 50%;
@@ -1658,6 +1655,9 @@ body.show
     visibility: hidden;
 
     padding: 15px 20px;
+
+    font-size: 14px;
+    line-height: 18px;
 
     transition: .2s linear;
     transform: translateY(-50%);
@@ -1754,12 +1754,12 @@ header .top
 
 header .city .current
 {
-    font-size: 16px;
-    line-height: 24px;
-
     overflow: hidden;
 
     padding-left: 22px;
+
+    font-size: 16px;
+    line-height: 24px;
 
     white-space: nowrap;
     text-decoration: none;
@@ -1916,10 +1916,10 @@ header .account .sep
 
 header .info
 {
+    padding: 21px 0;
+
     font-size: 15px;
     line-height: 24px;
-
-    padding: 21px 0;
 
     color: #000;
 }
@@ -1992,15 +1992,15 @@ header .contacts .email a:hover
 
 header .callback_link
 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 44px;
-
     display: block;
 
     height: 44px;
     margin-left: 30px;
     padding: 0 20px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
 
     transition: .2s linear;
     text-align: center;
@@ -2149,10 +2149,6 @@ header .menu .item
 
 header .menu .item > a
 {
-    font-size: 15px;
-    font-weight: 700;
-    line-height: normal;
-
     position: relative;
 
     display: flex;
@@ -2163,6 +2159,10 @@ header .menu .item > a
 
     min-height: 78px;
     padding: 10px 26px;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
 
     transition: .2s linear;
     text-decoration: none;
@@ -2180,10 +2180,6 @@ header .menu .item > a.active
 
 header .cart_link
 {
-    font-size: 15px;
-    font-weight: 700;
-    line-height: normal;
-
     position: relative;
 
     display: flex;
@@ -2196,6 +2192,10 @@ header .cart_link
     max-width: 100%;
     height: 78px;
     padding-right: 40px;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
 
     text-decoration: none;
 
@@ -2427,13 +2427,13 @@ aside > * + *
 
 .main_slider .slide .title span
 {
-    line-height: 70px;
-
     display: inline-block;
 
     height: 82px;
     margin: 10px -13px -20px;
     padding: 0 13px;
+
+    line-height: 70px;
 
     vertical-align: top;
 
@@ -2443,10 +2443,10 @@ aside > * + *
 
 .main_slider .slide .link
 {
+    display: inline-block;
+
     font-size: 15px;
     font-weight: 800;
-
-    display: inline-block;
 
     transition: .2s linear;
     text-align: center;
@@ -2465,10 +2465,10 @@ aside > * + *
 
 .order_panel
 {
-    font-size: 24px;
-
     margin-bottom: 38px;
     padding: 13px;
+
+    font-size: 24px;
 
     background: var(--bg2);
 }
@@ -2489,10 +2489,6 @@ aside > * + *
 
 .order_panel .link
 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 58px;
-
     display: block;
 
     width: 233px;
@@ -2500,6 +2496,10 @@ aside > * + *
     height: 58px;
     margin-left: 37px;
     padding: 0 20px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 58px;
 
     transition: .2s linear;
     text-align: center;
@@ -2582,16 +2582,16 @@ aside > * + *
 
 .cats_wall .item
 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 26px;
-
     position: relative;
 
     display: block;
     overflow: hidden;
 
     padding: 35px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
 
     transition: .2s linear;
     text-decoration: none;
@@ -2662,10 +2662,10 @@ aside > * + *
 
 .cats_wall .item .sub_links a
 {
+    display: inline-block;
+
     font-size: 16px;
     font-weight: 600;
-
-    display: inline-block;
 
     vertical-align: top;
     text-decoration: none;
@@ -2791,15 +2791,15 @@ aside > * + *
 
 .about_text .bottom_text
 {
-    font-size: 24px;
-    line-height: 36px;
-
     position: absolute;
     right: 0;
 
     width: calc(50% - 35px);
     margin-top: 15px;
     padding: 45px 65px;
+
+    font-size: 24px;
+    line-height: 36px;
 
     color: #fff;
     background: #0b7fc1;
@@ -2838,14 +2838,14 @@ aside > * + *
 
 .tags_cloud a
 {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 32px;
-
     display: block;
 
     height: 32px;
     padding: 0 11px;
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 32px;
 
     transition: .2s linear;
     white-space: nowrap;
@@ -2904,20 +2904,17 @@ aside > * + *
 
 .steps .data .flex .item
 {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
-
     position: relative;
 
     padding-top: 70px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .steps .data .flex .item:before
 {
-    font-size: 20px;
-    font-weight: 700;
-
     position: absolute;
     top: 0;
     left: 0;
@@ -2925,6 +2922,9 @@ aside > * + *
     display: block;
 
     padding-bottom: 5px;
+
+    font-size: 20px;
+    font-weight: 700;
 
     content: '0'counter(div)'.';
     counter-increment: div;
@@ -2949,10 +2949,6 @@ aside > * + *
 
 .steps .data .final
 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-
     position: absolute;
     top: calc(100% + 60px);
     right: -385px;
@@ -2967,6 +2963,10 @@ aside > * + *
     max-width: 100%;
     min-height: 204px;
     padding: 20px 115px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 
     color: #313131;
     background: var(--bg2) url(../images/ic_steps_final.png) 31px 50% no-repeat;
@@ -3281,12 +3281,12 @@ aside > * + *
 
 .products .product .stickers .sticker
 {
+    width: 47px;
+    height: 47px;
+
     font-size: 14px;
     font-weight: 700;
     line-height: 47px;
-
-    width: 47px;
-    height: 47px;
 
     text-align: center;
 
@@ -3327,13 +3327,13 @@ aside > * + *
 
 .products .product .name
 {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-
     flex: 1 0 auto;
 
     margin-bottom: 30px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
 
     transition: .2s linear;
 
@@ -3376,13 +3376,13 @@ aside > * + *
 
 .products .product .buy_link
 {
-    font: 700 16px/41px var(--font_family);
-
     display: block;
 
     height: 43px;
     margin-right: -24px;
     padding: 0 17px 0 45px;
+
+    font: 700 16px/41px var(--font_family);
 
     cursor: pointer;
     transition: .2s linear;
@@ -3442,10 +3442,10 @@ aside > * + *
 
 .product_info .features
 {
-    font-size: 15px;
-
     width: 40%;
     padding: 30px;
+
+    font-size: 15px;
 
     border-left: 2px solid #f1f6fa;
     background: #fff;
@@ -3473,9 +3473,9 @@ aside > * + *
 
 .product_info .features .item .val
 {
-    font-weight: 700;
-
     width: calc(100% - 215px);
+
+    font-weight: 700;
 }
 
 
@@ -3491,10 +3491,6 @@ aside > * + *
 
 .product_info .info .price
 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -3504,15 +3500,19 @@ aside > * + *
     width: 100%;
     margin-bottom: 20px;
 
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+
     color: #0a8dd8;
 }
 
 .product_info .info .price .old
 {
+    margin-right: 15px;
+
     font-size: 22px;
     font-weight: 400;
-
-    margin-right: 15px;
 
     text-decoration: line-through;
 
@@ -3538,8 +3538,6 @@ aside > * + *
 
 .product_info .info .amount button
 {
-    font: 700 24px/64px var(--font_family);
-
     position: absolute;
     top: 0;
 
@@ -3547,6 +3545,8 @@ aside > * + *
 
     width: 49px;
     height: 64px;
+
+    font: 700 24px/64px var(--font_family);
 
     cursor: pointer;
     transition: .2s linear;
@@ -3578,13 +3578,13 @@ aside > * + *
 
 .product_info .info .amount .input
 {
-    font: var(--font_size) var(--font_family);
-
     display: block;
 
     width: 100%;
     height: 64px;
     padding: 0 40px;
+
+    font: var(--font_size) var(--font_family);
 
     text-align: center;
 
@@ -3606,8 +3606,6 @@ aside > * + *
 
 .product_info .info .buy_link
 {
-    font: 700 18px/64px var(--font_family);
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -3618,6 +3616,8 @@ aside > * + *
     height: 64px;
     margin-top: 20px;
     padding: 0 20px;
+
+    font: 700 18px/64px var(--font_family);
 
     cursor: pointer;
     transition: .2s linear;
@@ -3688,10 +3688,6 @@ aside > * + *
 
 .product_info .info .delivery
 {
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 152.491%;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -3702,6 +3698,10 @@ aside > * + *
     margin-top: 24px;
     margin-right: -84px;
     padding: 22px 19px;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 152.491%;
 
     border-radius: 4px;
     background: #e9f3fa;
@@ -3731,12 +3731,12 @@ aside > * + *
 
 .product_info .info .delivery .btn
 {
+    display: inline-block;
+
     font-family: inherit;
     font-size: inherit;
     font-weight: 700;
     line-height: inherit;
-
-    display: inline-block;
 
     cursor: pointer;
     vertical-align: top;
@@ -3765,10 +3765,6 @@ aside > * + *
 
 .product_info .info .delivery .tooltip .text
 {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 135%;
-
     top: auto;
     right: 0;
     bottom: 100%;
@@ -3777,6 +3773,10 @@ aside > * + *
     width: 237px;
     margin: 0 0 7px;
     padding: 16px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 135%;
 
     transform: none;
     white-space: normal;
@@ -3803,11 +3803,11 @@ aside > * + *
 {
     .product_info .info .delivery
     {
-        font-size: 13px;
-
         width: 100%;
         margin-right: 0;
         padding: 16px;
+
+        font-size: 13px;
     }
 
 
@@ -3912,11 +3912,11 @@ aside > * + *
 
 .product_info .description
 {
-    font-weight: 700;
-    line-height: 30px;
-
     width: 100%;
     padding: 40px;
+
+    font-weight: 700;
+    line-height: 30px;
 
     color: #fff;
     background: #0a8dd8;
@@ -3987,9 +3987,9 @@ aside > * + *
 
 .action_form .title
 {
-    font-size: 30px;
-
     margin-bottom: 30px;
+
+    font-size: 30px;
 
     text-align: center;
 }
@@ -4043,9 +4043,6 @@ aside > * + *
 
 .lk_menu
 {
-    font-size: 20px;
-    font-weight: 700;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -4053,6 +4050,9 @@ aside > * + *
     justify-content: center;
 
     margin-bottom: 30px;
+
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .lk_menu a
@@ -4093,10 +4093,10 @@ aside > * + *
 
 .lk .personal .info
 {
-    font-size: 20px;
-
     width: 555px;
     max-width: 100%;
+
+    font-size: 20px;
 }
 
 .lk .personal .info .item
@@ -4153,10 +4153,10 @@ aside > * + *
 
 .lk .personal .info .item .val
 {
-    font-weight: 700;
-
     width: calc(100% - 235px);
     padding-left: 5px;
+
+    font-weight: 700;
 }
 
 
@@ -4170,12 +4170,12 @@ aside > * + *
 
 .lk .personal .form .cancel
 {
-    font-weight: 600;
-    line-height: 61px;
-
     display: inline-block;
 
     margin-left: 26px;
+
+    font-weight: 600;
+    line-height: 61px;
 
     transition: .2s linear;
     vertical-align: top;
@@ -4203,16 +4203,16 @@ aside > * + *
 
 .lk .personal .links a
 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 49px;
-
     display: block;
 
     width: 230px;
     max-width: 100%;
     height: 49px;
     padding: 0 20px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 49px;
 
     transition: .2s linear;
     text-align: center;
@@ -4233,9 +4233,6 @@ aside > * + *
 
 .lk .addresses > .title
 {
-    font-size: 20px;
-    font-weight: 700;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -4244,15 +4241,14 @@ aside > * + *
 
     margin-bottom: 21px;
 
+    font-size: 20px;
+    font-weight: 700;
+
     text-align: center;
 }
 
 .lk .addresses > .title .add_adres_link
 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 49px;
-
     display: block;
 
     width: 232px;
@@ -4260,6 +4256,10 @@ aside > * + *
     height: 49px;
     margin-left: 32px;
     padding: 0 20px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 49px;
 
     transition: .2s linear;
     text-align: center;
@@ -4346,10 +4346,10 @@ aside > * + *
 
 .lk .addresses .adres_block .info .title
 {
+    margin-bottom: 30px;
+
     font-size: 18px;
     font-weight: 700;
-
-    margin-bottom: 30px;
 
     color: #0a8dd8;
 }
@@ -4395,12 +4395,12 @@ aside > * + *
 
 .lk .addresses .adres_block .form .submit_btn
 {
-    font-size: 14px;
-    line-height: 49px;
-
     width: 100%;
     min-width: 0;
     height: 49px;
+
+    font-size: 14px;
+    line-height: 49px;
 
     color: #fff;
     border: none;
@@ -4422,8 +4422,6 @@ aside > * + *
 
 .lk .orders .order .head
 {
-    font-size: 18px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -4431,6 +4429,8 @@ aside > * + *
     justify-content: space-between;
 
     padding: 20px 60px;
+
+    font-size: 18px;
 
     cursor: pointer;
     transition: .2s linear;
@@ -4561,10 +4561,10 @@ aside > * + *
 
 .cart_info table th
 {
+    padding: 0 20px 5px;
+
     font-size: 14px;
     font-weight: 600;
-
-    padding: 0 20px 5px;
 
     text-align: left;
     vertical-align: middle;
@@ -4628,10 +4628,10 @@ aside > * + *
 
 .cart_info table td.name
 {
+    padding-left: 0;
+
     font-size: 18px;
     font-weight: 600;
-
-    padding-left: 0;
 
     color: #0a8dd8;
 }
@@ -4657,10 +4657,10 @@ aside > * + *
 
 .cart_info table td.name .exp
 {
+    margin-top: 5px;
+
     font-size: 14px;
     font-weight: 400;
-
-    margin-top: 5px;
 
     color: #000;
 }
@@ -4668,21 +4668,21 @@ aside > * + *
 
 .cart_info table td.price
 {
-    font-size: 24px;
-    font-weight: 700;
-
     width: 190px;
 
     table-layout: fixed;
+
+    font-size: 24px;
+    font-weight: 700;
 
     white-space: nowrap;
 }
 
 .cart_info table td.price .old
 {
-    font-weight: 400;
-
     margin-bottom: -5px;
+
+    font-weight: 400;
 
     text-decoration: line-through;
 }
@@ -4731,8 +4731,6 @@ aside > * + *
 
 .cart_info table .amount button
 {
-    font: 700 24px/64px var(--font_family);
-
     position: absolute;
     top: 0;
 
@@ -4740,6 +4738,8 @@ aside > * + *
 
     width: 49px;
     height: 64px;
+
+    font: 700 24px/64px var(--font_family);
 
     cursor: pointer;
     transition: .2s linear;
@@ -4771,13 +4771,13 @@ aside > * + *
 
 .cart_info table .amount .input
 {
-    font: var(--font_size) var(--font_family);
-
     display: block;
 
     width: 100%;
     height: 64px;
     padding: 0 40px;
+
+    font: var(--font_size) var(--font_family);
 
     text-align: center;
 
@@ -4803,14 +4803,14 @@ aside > * + *
 
 .cart_info table td.delete a
 {
-    font-size: 28px;
-    line-height: 36px;
-
     display: block;
 
     width: 40px;
     height: 40px;
     margin: 0 auto;
+
+    font-size: 28px;
+    line-height: 36px;
 
     text-align: center;
     text-decoration: none;
@@ -4848,11 +4848,11 @@ aside > * + *
 
 .cart_info .promocode .title
 {
+    margin-bottom: 20px;
+
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
-
-    margin-bottom: 20px;
 }
 
 .cart_info .promocode .form
@@ -4895,14 +4895,14 @@ aside > * + *
 
 .cart_info .promocode .form .submit_btn
 {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 45px;
-
     width: 100%;
     min-width: 0;
     height: 45px;
     padding: 0;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
 
     color: #fff;
     border: none;
@@ -4918,11 +4918,11 @@ aside > * + *
 
 .cart_info .cart_total
 {
-    font-size: 17px;
-    line-height: 24px;
-
     width: calc(50% - 10px);
     padding: 35px 8.5%;
+
+    font-size: 17px;
+    line-height: 24px;
 
     text-align: right;
 
@@ -4938,10 +4938,10 @@ aside > * + *
 
 .cart_info .cart_total .total
 {
+    margin-top: 15px;
+
     font-size: 30px;
     line-height: 34px;
-
-    margin-top: 15px;
 }
 
 
@@ -4959,16 +4959,16 @@ aside > * + *
 
 .cart_info .cart_links a
 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 66px;
-
     display: block;
 
     width: 410px;
     max-width: calc(50% - 5px);
     height: 66px;
     padding: 0 20px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 66px;
 
     transition: .2s linear;
     text-align: center;
@@ -4994,9 +4994,9 @@ aside > * + *
 
 .checkout_info .title
 {
-    font-size: 30px;
-
     margin-bottom: 30px;
+
+    font-size: 30px;
 
     text-align: center;
 }
@@ -5054,9 +5054,9 @@ aside > * + *
 
 .checkout_info .form textarea
 {
-    font-size: 14px;
-
     height: 95px;
+
+    font-size: 14px;
 
     border-radius: 3px;
 }
@@ -5138,13 +5138,13 @@ aside > * + *
 
 .checkout_info .form .checkout_total
 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 34px;
-
     position: absolute;
     bottom: 37px;
     left: 35px;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
 }
 
 
@@ -5155,11 +5155,11 @@ aside > * + *
 
 .checkout_info .form .submit_btn
 {
-    font-size: 18px;
-    line-height: 66px;
-
     min-width: 241px;
     height: 66px;
+
+    font-size: 18px;
+    line-height: 66px;
 
     color: #fff;
     border: none;
@@ -5175,9 +5175,9 @@ aside > * + *
 
 .checkout_info .form .agree
 {
-    font-size: 14px;
-
     margin-top: 20px;
+
+    font-size: 14px;
 
     text-align: center;
 }
@@ -5233,12 +5233,12 @@ aside > * + *
 
 .delivery_info .head .info
 {
-    font-size: 19px;
-
     align-self: center;
 
     width: 385px;
     max-width: 100%;
+
+    font-size: 19px;
 }
 
 .delivery_info .head .info > * + *
@@ -5275,8 +5275,6 @@ aside > * + *
 
 .delivery_info .head .links a
 {
-    font-size: 14px;
-
     position: relative;
 
     display: flex;
@@ -5288,6 +5286,8 @@ aside > * + *
     width: 420px;
     height: 107px;
     padding: 15px 20px 15px 137px;
+
+    font-size: 14px;
 
     text-decoration: none;
 
@@ -5325,10 +5325,10 @@ aside > * + *
 
 .delivery_info .head .links a .name
 {
+    width: 100%;
+
     font-size: 20px;
     font-weight: 700;
-
-    width: 100%;
 }
 
 
@@ -5355,13 +5355,13 @@ aside > * + *
 
 .delivery_info .delivery_service table th
 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-
     position: relative;
 
     padding: 15px 20px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
 
     text-align: center;
     vertical-align: middle;
@@ -5392,11 +5392,11 @@ aside > * + *
 
 .delivery_info .delivery_service table td
 {
-    font-size: 14px;
-    line-height: 18px;
-
     min-width: 330px;
     padding: 15px 20px;
+
+    font-size: 14px;
+    line-height: 18px;
 
     text-align: center;
     vertical-align: middle;
@@ -5433,12 +5433,12 @@ aside > * + *
 
 .delivery_info .delivery_service table td.region
 {
-    line-height: 20px;
-
     width: 208px;
     min-width: 0;
 
     table-layout: fixed;
+
+    line-height: 20px;
 
     text-align: left;
 }
@@ -5446,10 +5446,10 @@ aside > * + *
 
 .delivery_info .delivery_service .exp
 {
+    margin-top: 20px;
+
     font-size: 14px;
     line-height: 20px;
-
-    margin-top: 20px;
 }
 
 
@@ -5475,10 +5475,10 @@ aside > * + *
 
 .delivery_info .time_info .name
 {
+    margin-bottom: 20px;
+
     font-size: 24px;
     line-height: 24px;
-
-    margin-bottom: 20px;
 }
 
 .delivery_info .time_info .flex
@@ -5492,12 +5492,12 @@ aside > * + *
 
 .delivery_info .time_info .days
 {
+    width: 49px;
+    min-width: 49px;
+
     font-size: 16px;
     font-weight: 700;
     line-height: 60px;
-
-    width: 49px;
-    min-width: 49px;
 
     text-align: center;
     text-transform: uppercase;
@@ -5516,12 +5516,12 @@ aside > * + *
 
 .delivery_info .time_info .desc
 {
-    font-size: 13px;
-    line-height: 16px;
-
     width: 560px;
     max-width: 100%;
     margin-left: 20px;
+
+    font-size: 13px;
+    line-height: 16px;
 }
 
 .delivery_info .time_info .desc > *
@@ -5540,9 +5540,6 @@ aside > * + *
 
 .delivery_info .time_info .time
 {
-    font-size: 16px;
-    font-weight: 700;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -5552,6 +5549,9 @@ aside > * + *
     height: 290px;
     margin-left: 25px;
     padding-left: 45px;
+
+    font-size: 16px;
+    font-weight: 700;
 
     white-space: nowrap;
 
@@ -5568,11 +5568,11 @@ aside > * + *
 
 .delivery_info .note
 {
-    font-size: 14px;
-    line-height: 24px;
-
     margin-top: 40px;
     padding: 35px 43px;
+
+    font-size: 14px;
+    line-height: 24px;
 
     border-radius: 4px;
     background: #eef7fc;
@@ -5580,10 +5580,10 @@ aside > * + *
 
 .delivery_info .note .title
 {
+    margin-bottom: 10px;
+
     font-size: 22px;
     font-weight: 600;
-
-    margin-bottom: 10px;
 
     color: #0a8cd7;
 }
@@ -5643,15 +5643,15 @@ aside > * + *
 
 .delivery_info .delivery_steps .flex .item
 {
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 24px;
-
     position: relative;
 
     order: 1;
 
     padding-top: 60px;
+
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .delivery_info .delivery_steps .flex .item:nth-child(4)
@@ -5666,10 +5666,10 @@ aside > * + *
 
 .delivery_info .delivery_steps .flex .item:nth-child(6)
 {
+    order: 4;
+
     font-size: 19px;
     font-weight: 700;
-
-    order: 4;
 
     color: #0b7fc1;
 }
@@ -5730,9 +5730,6 @@ aside > * + *
 
 .delivery_info .delivery_steps .flex .item:before
 {
-    font-size: 20px;
-    font-weight: 700;
-
     position: absolute;
     top: 0;
     left: 0;
@@ -5740,6 +5737,9 @@ aside > * + *
     display: block;
 
     padding-bottom: 5px;
+
+    font-size: 20px;
+    font-weight: 700;
 
     content: '0'counter(div)'.';
     counter-increment: div;
@@ -5922,10 +5922,10 @@ aside > * + *
 
 .delivery_info .payments .name
 {
+    margin-bottom: 20px;
+
     font-size: 18px;
     font-weight: 700;
-
-    margin-bottom: 20px;
 }
 
 .delivery_info .payments img
@@ -5984,31 +5984,31 @@ aside > * + *
 
 .team .item .name
 {
+    margin-top: 15px;
+
     font-size: 16px;
     font-weight: 700;
-
-    margin-top: 15px;
 
     color: #000;
 }
 
 .team .item .post
 {
+    margin-top: 10px;
+
     font-size: 12px;
     line-height: 15px;
-
-    margin-top: 10px;
 
     color: #6f6f6f;
 }
 
 .team .item .phone
 {
+    margin-top: 7px;
+
     font-size: 14px;
     font-weight: 700;
     line-height: 15px;
-
-    margin-top: 7px;
 
     color: #007bd1;
 }
@@ -6039,11 +6039,6 @@ aside > * + *
 
 .tabs button
 {
-    font-family: var(--font_family);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -6052,6 +6047,11 @@ aside > * + *
 
     min-height: 54px;
     padding: 12px 49px;
+
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
 
     cursor: pointer;
     transition: background .2s linear;
@@ -6132,10 +6132,6 @@ aside > * + *
 
 .map_block .cities
 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 19px;
-
     display: flex;
     align-content: flex-start;
     align-items: flex-start;
@@ -6145,6 +6141,10 @@ aside > * + *
     width: calc(50% - 20px);
     margin-left: -20px;
     padding-top: 19px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
 
     color: #2690d2;
 }
@@ -6174,9 +6174,9 @@ aside > * + *
 
 .sort
 {
-    font-size: 15px;
-
     margin-bottom: 30px;
+
+    font-size: 15px;
 }
 
 .sort a
@@ -6207,15 +6207,15 @@ aside > * + *
 
 .all a
 {
-    font-size: 16px;
-    line-height: 60px;
-
     display: inline-block;
 
     width: 229px;
     max-width: 100%;
     height: 60px;
     padding: 0 20px;
+
+    font-size: 16px;
+    line-height: 60px;
 
     transition: .2s linear;
     text-align: center;
@@ -6258,10 +6258,10 @@ footer.no_padding
 
 footer .info
 {
+    padding: 40px 0;
+
     font-size: 14px;
     line-height: 20px;
-
-    padding: 40px 0;
 
     color: #fff;
 }
@@ -6462,11 +6462,11 @@ footer .socials a:hover
 
 .modal .product .name
 {
+    margin-bottom: 30px;
+
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
-
-    margin-bottom: 30px;
 
     text-align: center;
 
@@ -6496,16 +6496,16 @@ footer .socials a:hover
 
 .modal .links a
 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 58px;
-
     display: block;
 
     width: calc(50% - 10px);
     max-width: 100%;
     height: 58px;
     padding: 0 20px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 58px;
 
     transition: .2s linear;
     text-align: center;
@@ -6569,12 +6569,12 @@ footer .socials a:hover
 
 #add_adres_modal .form .submit_btn
 {
-    font-size: 14px;
-    line-height: 49px;
-
     width: 100%;
     min-width: 0;
     height: 49px;
+
+    font-size: 14px;
+    line-height: 49px;
 
     color: #fff;
     border: none;
@@ -6658,9 +6658,6 @@ footer .socials a:hover
 
 #city_modal .search .input
 {
-    font-family: var(--font_family);
-    font-size: 15px;
-
     position: relative;
     z-index: 3;
 
@@ -6669,6 +6666,9 @@ footer .socials a:hover
     width: 100%;
     height: 44px;
     padding: 0 51px 0 19px;
+
+    font-family: var(--font_family);
+    font-size: 15px;
 
     color: #333;
     border: 1px solid #0d7fc1;
@@ -6719,9 +6719,6 @@ footer .socials a:hover
 
 #city_modal .search .tips
 {
-    font-size: 14px;
-    font-weight: 700;
-
     position: absolute;
     z-index: 1;
     top: 22px;
@@ -6732,6 +6729,9 @@ footer .socials a:hover
 
     width: 100%;
     padding: 44px 40px 24px;
+
+    font-size: 14px;
+    font-weight: 700;
 
     color: #333;
     background: #fff;
@@ -6776,13 +6776,13 @@ footer .socials a:hover
 
 #city_modal .top .btn
 {
+    min-width: 178px;
+    padding: 0 12px;
+
     font-family: var(--font_family);
     font-size: 16px;
     font-weight: 600;
     line-height: 151.393%;
-
-    min-width: 178px;
-    padding: 0 12px;
 
     cursor: pointer;
     text-align: left;
@@ -6810,13 +6810,13 @@ footer .socials a:hover
 
 #city_modal .mob_anchors .btn
 {
+    width: 48px;
+    height: 48px;
+
     font-family: var(--font_family);
     font-size: 16px;
     font-weight: 700;
     line-height: 151.393%;
-
-    width: 48px;
-    height: 48px;
 
     cursor: pointer;
     text-align: center;
@@ -6894,12 +6894,12 @@ footer .socials a:hover
 
 #city_modal .alphabet .btn
 {
+    width: 100%;
+    padding: 0 12px;
+
     font-family: var(--font_family);
     font-size: 15px;
     line-height: 151.393%;
-
-    width: 100%;
-    padding: 0 12px;
 
     cursor: pointer;
     transition: .2s linear;

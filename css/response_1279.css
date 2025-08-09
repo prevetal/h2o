@@ -115,9 +115,9 @@
 
     .cats_wall .item
     {
-        font-size: 22px;
-
         padding: 25px;
+
+        font-size: 22px;
     }
 
 
@@ -148,10 +148,10 @@
 
     .about_text .bottom_text
     {
+        padding: 40px 50px;
+
         font-size: 22px;
         line-height: 32px;
-
-        padding: 40px 50px;
     }
 
 
@@ -203,9 +203,9 @@
 
     .cart_info table td.price
     {
-        font-size: 20px;
-
         width: auto;
+
+        font-size: 20px;
     }
 
     .cart_info table td.amount
@@ -275,10 +275,10 @@
 
     .products .product .name
     {
+        margin-bottom: 10px;
+
         font-size: 16px;
         line-height: 22px;
-
-        margin-bottom: 10px;
     }
 
     .products .product .price
@@ -328,9 +328,9 @@
 
     .lk .orders .order .head
     {
-        font-size: 16px;
-
         padding: 20px 40px;
+
+        font-size: 16px;
     }
 
 
@@ -364,6 +364,7 @@
         padding: 25px 0 25px 25px;
     }
 
+
     .product_info .info .price
     {
         font-size: 32px;
@@ -374,6 +375,13 @@
     {
         font-size: 20px;
     }
+
+
+    .product_info .info .certificate
+    {
+        line-height: 130%;
+    }
+
 
     .product_info .info .bottom
     {
@@ -423,9 +431,9 @@
 
     .delivery_info .note
     {
-        line-height: 22px;
-
         padding: 30px 35px;
+
+        line-height: 22px;
     }
 
 
@@ -481,11 +489,11 @@
 
     .tabs button
     {
-        font-size: 15px;
-        line-height: 21px;
-
         min-height: 50px;
         padding: 12px 40px;
+
+        font-size: 15px;
+        line-height: 21px;
     }
 
 
@@ -516,14 +524,13 @@
     footer .col_right
     {
         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         width: 100%;
         margin-top: 30px;
-
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
     }
 
     footer .col_right > * + *

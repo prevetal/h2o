@@ -3872,7 +3872,7 @@ aside > * + *
 }
 
 
-.product_info .info .certificate .icon
+.product_info .info .certificate .thumb:after
 {
     position: absolute;
     right: -4px;
@@ -3882,8 +3882,12 @@ aside > * + *
 
     width: 24px;
     height: 32px;
-}
 
+    content: '';
+    pointer-events: none;
+
+    background: url('../images/ic_certificate.svg') 0 0/100% 100% no-repeat;
+}
 
 .product_info .info .certificate span
 {

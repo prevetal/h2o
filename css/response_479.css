@@ -473,7 +473,7 @@
     }
 
 
-    .product_info .info .certificate .icon
+    .product_info .info .certificate .thumb:after
     {
         width: 19px;
         height: 26px;

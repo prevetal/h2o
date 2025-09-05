@@ -3843,7 +3843,7 @@ aside > * + *
     line-height: 152.491%;
 
     text-decoration: none;
-
+transition: color .2s linear;
     color: currentColor;
     border-radius: 4px;
     background: #e9f3fa;
@@ -3892,6 +3892,12 @@ aside > * + *
 .product_info .info .certificate span
 {
     width: calc(100% - 110px);
+}
+
+
+.product_info .info .certificate:hover
+{
+    color: #0d7fc1;
 }
 
 

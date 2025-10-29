@@ -280,8 +280,6 @@
 
     .products .product .name
     {
-        margin-bottom: 10px;
-
         font-size: 16px;
         line-height: 22px;
     }
@@ -294,6 +292,18 @@
     .products .product .price .old
     {
         font-size: 15px;
+    }
+
+    .products .product .amount
+    {
+        width: 132px;
+        margin-right: -8px;
+    }
+
+    .products .product .amount .input,
+    .products .product .amount button
+    {
+        height: 40px;
     }
 
     .products .product .buy_link

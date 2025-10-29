@@ -376,6 +376,19 @@
         height: 175px;
     }
 
+
+    .products .product .middle
+    {
+        display: none;
+    }
+
+
+    .products .product .price
+    {
+        text-align: left;
+    }
+
+
     .products .product .price .old
     {
         display: inline-block;

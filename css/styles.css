@@ -3373,7 +3373,7 @@ aside > * + *
 {
     flex: 1 0 auto;
 
-    margin-bottom: 30px;
+    margin-bottom: 8px;
 
     font-size: 18px;
     font-weight: 600;
@@ -3415,6 +3415,109 @@ aside > * + *
     text-decoration: line-through;
 
     color: #4b4b4b;
+}
+
+
+.products .product .middle
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 4px;
+}
+
+
+.products .product .amount
+{
+    position: relative;
+
+    width: 141px;
+    margin-right: -15px;
+    margin-left: auto;
+}
+
+
+.products .product .amount button
+{
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 43px;
+    height: 43px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: none;
+    background: none;
+}
+
+
+.products .product .amount button.minus
+{
+    left: 0;
+
+    border-radius: 22px 0 0 22px;
+}
+
+
+.products .product .amount button.plus
+{
+    right: 0;
+
+    border-radius: 0 22px 22px 0;
+}
+
+
+.products .product .amount button.minus svg
+{
+    display: block;
+
+    width: 10px;
+    height: 3px;
+}
+
+
+.products .product .amount button.plus svg
+{
+    display: block;
+
+    width: 10px;
+    height: 10px;
+}
+
+
+.products .product .amount button:hover
+{
+    color: #088dd8;
+}
+
+
+.products .product .amount .input
+{
+    display: block;
+
+    width: 100%;
+    height: 43px;
+    padding: 0 42px;
+
+    font: 18px var(--font_family);
+
+    text-align: center;
+
+    color: #000;
+    border: 1px solid #b9d2e7;
+    border-radius: 22px;
+    background: #fff;
 }
 
 

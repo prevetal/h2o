@@ -640,7 +640,7 @@
     {
         bottom: -8px;
 
-        padding: 3px 11px;
+        padding: 11px;
 
         font-size: 13px;
         line-height: 15px;
@@ -651,6 +651,21 @@
     {
         font-size: 14px;
         line-height: 20px;
+    }
+
+
+    .products .product .amount
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    .products .product .price
+    {
+        width: 100%;
+
+        text-align: center;
     }
 
 

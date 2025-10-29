@@ -347,6 +347,11 @@
         height: 110px;
     }
 
+    .products .product .quike_view_btn
+    {
+        padding-block: 3px;
+    }
+
     .products .product .buy_link
     {
         width: 100%;

@@ -889,7 +889,6 @@ body.show
 .form .nice-select .list
 {
     position: absolute;
-    z-index: 9;
     top: calc(100% + 30px);
     left: 0;
 
@@ -899,6 +898,7 @@ body.show
     min-width: 100%;
     padding-bottom: 5px;
 
+    z-index: 9;
     transition: .2s linear;
 
     opacity: 0;
@@ -1593,12 +1593,12 @@ body.show
 .mini_modal
 {
     position: absolute;
-    z-index: 999;
     top: calc(100% + 30px);
     left: 0;
 
     visibility: hidden;
 
+    z-index: 999;
     transition: .2s linear;
 
     opacity: 0;
@@ -1648,7 +1648,6 @@ body.show
 .tooltip .text
 {
     position: absolute;
-    z-index: 99;
     top: 50%;
     left: calc(100% + 50px);
 
@@ -1659,6 +1658,7 @@ body.show
     font-size: 14px;
     line-height: 18px;
 
+    z-index: 99;
     transition: .2s linear;
     transform: translateY(-50%);
     text-align: left;
@@ -1673,7 +1673,6 @@ body.show
 .tooltip .text:before
 {
     position: absolute;
-    z-index: 1;
     top: 50%;
     right: 100%;
 
@@ -1684,6 +1683,7 @@ body.show
     margin-top: -7px;
 
     content: '';
+    z-index: 1;
 
     background: url(../images/ic_tooltip_arr.png) 0 0 no-repeat;
 }
@@ -1705,12 +1705,13 @@ body.show
 header
 {
     position: relative;
-    z-index: 999;
     top: 0;
     left: 0;
 
     width: 100%;
     margin: 0 0 14px;
+
+    z-index: 999;
 }
 
 header.absolute
@@ -2061,7 +2062,6 @@ header .bottom.absolute
 header .mob_menu_link
 {
     position: relative;
-    z-index: 1000;
     top: 0;
     right: 0;
 
@@ -2072,6 +2072,8 @@ header .mob_menu_link
     margin-right: -15px;
     margin-left: 10px;
     padding: 15px;
+
+    z-index: 1000;
 }
 
 header .mob_menu_link span
@@ -3104,10 +3106,11 @@ aside > * + *
 .feedback
 {
     position: absolute;
-    z-index: 100;
 
     width: 100%;
     margin-top: -136px;
+
+    z-index: 100;
 }
 
 .feedback .data
@@ -3219,7 +3222,6 @@ aside > * + *
 .products .product .favorite_btn
 {
     position: absolute;
-    z-index: 3;
     top: 19px;
     left: 19px;
 
@@ -3232,6 +3234,7 @@ aside > * + *
     width: 28px;
     height: 28px;
 
+    z-index: 3;
     cursor: pointer;
 
     border: none;
@@ -3263,7 +3266,6 @@ aside > * + *
 .products .product .stickers
 {
     position: absolute;
-    z-index: 99;
     top: 30px;
     right: 15px;
 
@@ -3272,6 +3274,8 @@ aside > * + *
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+    z-index: 99;
 }
 
 .products .product .stickers > * + *
@@ -3842,8 +3846,9 @@ aside > * + *
     font-weight: 700;
     line-height: 152.491%;
 
+    transition: color .2s linear;
     text-decoration: none;
-transition: color .2s linear;
+
     color: currentColor;
     border-radius: 4px;
     background: #e9f3fa;
@@ -4217,7 +4222,6 @@ transition: color .2s linear;
 .lk .personal .info .item .name:before
 {
     position: absolute;
-    z-index: 1;
     bottom: 6px;
     left: 0;
 
@@ -4227,6 +4231,7 @@ transition: color .2s linear;
     height: 2px;
 
     content: '';
+    z-index: 1;
 
     border-bottom: 2px dotted #000;
 }
@@ -4234,12 +4239,12 @@ transition: color .2s linear;
 .lk .personal .info .item .name div
 {
     position: relative;
-    z-index: 9;
 
     display: inline-block;
 
     padding-right: 5px;
 
+    z-index: 9;
     vertical-align: top;
 
     background: #eef7ff;
@@ -5298,7 +5303,6 @@ transition: color .2s linear;
 .delivery_info:after
 {
     position: absolute;
-    z-index: -9;
     bottom: -25px;
     left: 50%;
 
@@ -5309,6 +5313,7 @@ transition: color .2s linear;
     margin-left: -960px;
 
     content: '';
+    z-index: -9;
 
     background: url(../images/bg_delivery_info.png) 50% 100% no-repeat;
 }
@@ -5694,7 +5699,6 @@ transition: color .2s linear;
 .delivery_info .delivery_steps:before
 {
     position: absolute;
-    z-index: -5;
     top: -85px;
     left: 50%;
 
@@ -5705,6 +5709,7 @@ transition: color .2s linear;
     margin-left: -960px;
 
     content: '';
+    z-index: -5;
 
     background: url(../images/bg_page_content.png) 50% no-repeat;
 }
@@ -5771,7 +5776,6 @@ transition: color .2s linear;
 .delivery_info .delivery_steps .flex .item:nth-child(6):after
 {
     position: absolute;
-    z-index: -1;
     top: -27px;
     right: 10px;
 
@@ -5781,6 +5785,7 @@ transition: color .2s linear;
     height: calc(100% + 54px);
 
     content: '';
+    z-index: -1;
 
     background: #ecf1f7;
 }
@@ -5788,7 +5793,6 @@ transition: color .2s linear;
 .delivery_info .delivery_steps .flex .item:nth-child(6) .img
 {
     position: absolute;
-    z-index: -2;
     top: -75px;
     right: 10px;
 
@@ -5796,6 +5800,8 @@ transition: color .2s linear;
 
     width: calc(100% + 170px);
     height: calc(100% + 150px);
+
+    z-index: -2;
 
     box-shadow: 13.391px 22.286px 49px 0 rgba(11, 127, 193, .33);
 
@@ -6335,11 +6341,12 @@ transition: color .2s linear;
 footer
 {
     position: relative;
-    z-index: 98;
 
     flex: 0 0 auto;
 
     padding-top: 196px;
+
+    z-index: 98;
 
     background: #12518d;
 }
@@ -6753,7 +6760,6 @@ footer .socials a:hover
 #city_modal .search .input
 {
     position: relative;
-    z-index: 3;
 
     display: block;
 
@@ -6763,6 +6769,8 @@ footer .socials a:hover
 
     font-family: var(--font_family);
     font-size: 15px;
+
+    z-index: 3;
 
     color: #333;
     border: 1px solid #0d7fc1;
@@ -6796,7 +6804,6 @@ footer .socials a:hover
 #city_modal .search .icon
 {
     position: absolute;
-    z-index: 5;
     top: 0;
     right: 14px;
     bottom: 0;
@@ -6807,6 +6814,7 @@ footer .socials a:hover
     height: 19px;
     margin: auto 0;
 
+    z-index: 5;
     pointer-events: none;
 }
 
@@ -6814,7 +6822,6 @@ footer .socials a:hover
 #city_modal .search .tips
 {
     position: absolute;
-    z-index: 1;
     top: 22px;
     left: 0;
 
@@ -6826,6 +6833,8 @@ footer .socials a:hover
 
     font-size: 14px;
     font-weight: 700;
+
+    z-index: 1;
 
     color: #333;
     background: #fff;

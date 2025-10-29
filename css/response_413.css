@@ -321,6 +321,13 @@
         width: calc(50% + 1px);
     }
 
+
+    .products .slider .product
+    {
+        padding-inline: 39px;
+    }
+
+
     .products .product .favorite_btn
     {
         top: 5px;
@@ -467,15 +474,6 @@
     .product_info .info .total_price
     {
         margin-left: 20px;
-    }
-
-
-    .product_info .info .buy_link
-    {
-        height: 54px;
-
-        font-size: 15px;
-        line-height: 54px;
     }
 
 
@@ -648,19 +646,6 @@
 
 
 
-    .products .slider
-    {
-        padding: 0 10px;
-    }
-
-    .products .slider .product .buy_link
-    {
-        width: auto;
-        padding-left: 30px;
-    }
-
-
-
     /*---------------
         Footer
     ---------------*/
@@ -757,5 +742,96 @@
     {
         width: 45px;
         height: 45px;
+    }
+
+
+
+    /*------------------------------
+        Product quike view modal
+    ------------------------------*/
+    .product_quike_view_info .images .thumbs
+    {
+        padding-inline: 0;
+    }
+
+
+
+    .product_quike_view_info .data
+    {
+        margin-top: 20px;
+    }
+
+
+    .product_quike_view_info .product_name
+    {
+        font-size: 18px;
+    }
+
+
+    .product_quike_view_info .amount
+    {
+        width: 140px;
+    }
+
+
+    .product_quike_view_info .total_price
+    {
+        margin-left: 4px;
+
+        font-size: 14px;
+    }
+
+
+    .product_quike_view_info .price
+    {
+        font-size: 22px;
+    }
+
+
+    .product_quike_view_info .buy_link
+    {
+        font-size: 16px;
+    }
+
+
+    .product_quike_view_info .buy_link img
+    {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+
+
+    .product_quike_view_info .features .item .label
+    {
+        width: 120px;
+    }
+
+
+    .product_quike_view_info .features .item .val
+    {
+        width: calc(100% - 124px);
+    }
+
+
+
+    .product_quike_view_info .delivery
+    {
+        font-size: 12px;
+    }
+
+
+    .product_quike_view_info .delivery > .icon
+    {
+        width: 48px;
+        height: 29px;
+    }
+
+
+    .product_quike_view_info .delivery > .icon + *
+    {
+        width: calc(100% - 64px);
+
+        gap: 0;
     }
 }

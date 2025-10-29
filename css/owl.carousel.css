@@ -288,34 +288,78 @@
 }
 
 
-.owl-carousel .owl-nav button
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next
 {
     position: absolute;
     top: 0;
+    bottom: 0;
 
     display: block;
 
-    width: 88px;
-    height: 100%;
+    width: 48px;
+    height: 48px;
+    margin-block: auto;
 
     cursor: pointer;
+    transition: .2s linear;
     text-indent: -9999px;
 
-    border: none;
+    color: #088dd8;
+    border: 1px solid #088dd8;
+    border-radius: 50%;
+    background: #fff;
 }
+
 
 .owl-carousel .owl-nav button.owl-prev
 {
-    right: 100%;
-
-    background: url(../images/ic_slider_prev.png) 50% calc(50% + 6px) no-repeat;
+    left: -24px;
 }
+
 
 .owl-carousel .owl-nav button.owl-next
 {
-    left: 100%;
+    right: -24px;
+}
 
-    background: url(../images/ic_slider_next.png) 50% calc(50% + 6px) no-repeat;
+
+.owl-carousel .owl-nav button.owl-prev:before,
+.owl-carousel .owl-nav button.owl-next:before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 2px;
+
+    display: block;
+
+    width: 10px;
+    height: 10px;
+    margin: auto;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    border-top: 3px solid;
+    border-left: 3px solid;
+}
+
+
+.owl-carousel .owl-nav button.owl-next:before
+{
+    right: 2px;
+    left: 0;
+
+    transform: rotate(135deg);
+}
+
+
+.owl-carousel .owl-nav button:hover
+{
+    color: #fff;
+    background: #088dd8;
 }
 
 

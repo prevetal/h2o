@@ -96,8 +96,10 @@ $(function () {
 
 
 	// Товар в корзину
-	$('body').on('click', '.products .product .buy_link', function (e) {
+	$('body').on('click', '.products .product .buy_link, .product_info .buy_link', function (e) {
 		e.preventDefault()
+
+		$(this).addClass('active')
 
 		// Здесь какие-то действия по добавлению товара в корзину
 	})
@@ -184,17 +186,52 @@ $(function () {
 	})
 
 
-	// Добавление товара в корзину
-	$('body').on('click', '.buy_link', function (e) {
+	// Быстрый просмотр товара
+	$('body').on('click', '.quike_view_btn', function (e) {
 		e.preventDefault()
 
-		$.fancybox.close()
-
 		$.fancybox.open({
-			src: '#cart_success_modal',
-			type: 'inline'
+			src: $(this).data('src'),
+			type: 'ajax',
+			afterLoad: function (instance, current) {
+				const productThumbs = new Swiper('.product_quike_view_info .images .thumbs .swiper', {
+					loop: false,
+					speed: 500,
+					watchSlidesProgress: true,
+					slideActiveClass: 'active',
+					slideVisibleClass: 'visible',
+					lazy: true,
+					spaceBetween: 3,
+					slidesPerView: 4
+				})
+
+				new Swiper('.product_quike_view_info .images .big .swiper', {
+					loop: false,
+					speed: 500,
+					watchSlidesProgress: true,
+					slideActiveClass: 'active',
+					slideVisibleClass: 'visible',
+					spaceBetween: 24,
+					slidesPerView: 1,
+					lazy: true,
+					thumbs: { swiper: productThumbs }
+				})
+			}
 		})
 	})
+
+
+	// Добавление товара в корзину
+	// $('body').on('click', '.buy_link', function (e) {
+	// 	e.preventDefault()
+
+	// 	$.fancybox.close()
+
+	// 	$.fancybox.open({
+	// 		src: '#cart_success_modal',
+	// 		type: 'inline'
+	// 	})
+	// })
 
 
 	// Отправка форм

@@ -143,9 +143,9 @@
 
     .main_slider .slide .title span
     {
-        line-height: 38px;
-
         height: 42px;
+
+        line-height: 38px;
     }
 
 
@@ -163,9 +163,9 @@
 
     .cats_wall .item
     {
-        font-size: 13px;
-
         padding: 12px;
+
+        font-size: 13px;
     }
 
     .cats_wall .item .sub_links
@@ -200,10 +200,10 @@
 
     .about_text .bottom_text
     {
+        padding: 15px 20px;
+
         font-size: 16px;
         line-height: 22px;
-
-        padding: 15px 20px;
     }
 
 
@@ -289,10 +289,10 @@
 
     .cart_info .cart_total .total
     {
+        margin-top: 10px;
+
         font-size: 22px;
         line-height: 26px;
-
-        margin-top: 10px;
     }
 
 
@@ -321,6 +321,13 @@
         width: calc(50% + 1px);
     }
 
+
+    .products .slider .product
+    {
+        padding-inline: 39px;
+    }
+
+
     .products .product .favorite_btn
     {
         top: 5px;
@@ -340,6 +347,11 @@
         height: 110px;
     }
 
+    .products .product .quike_view_btn
+    {
+        padding-block: 3px;
+    }
+
     .products .product .buy_link
     {
         width: 100%;
@@ -356,10 +368,10 @@
     .pagination a,
     .pagination .sep
     {
-        line-height: 38px;
-
         width: 40px;
         height: 40px;
+
+        line-height: 38px;
     }
 
 
@@ -422,9 +434,9 @@
 
     .action_form .title
     {
-        font-size: 20px;
-
         margin-bottom: 20px;
+
+        font-size: 20px;
     }
 
 
@@ -470,21 +482,12 @@
     }
 
 
-    .product_info .info .buy_link
-    {
-        font-size: 15px;
-        line-height: 54px;
-
-        height: 54px;
-    }
-
-
     .product_info .info .delivery .tooltip .text
     {
-        font-size: 14px;
-
         width: 192px;
         padding: 12px;
+
+        font-size: 14px;
     }
 
 
@@ -511,12 +514,12 @@
 
     .product_info .description
     {
+        padding: 18px 20px;
+
         font-size: 14px;
         font-weight: normal;
         line-height: 20px;
         line-height: 20px;
-
-        padding: 18px 20px;
     }
 
 
@@ -535,9 +538,9 @@
 
     .delivery_info .head .info
     {
-        font-size: 14px;
-
         margin-bottom: 30px;
+
+        font-size: 14px;
     }
 
     .delivery_info .head .info .title
@@ -640,23 +643,10 @@
 
     .tabs button
     {
-        line-height: 18px;
-
         min-height: 50px;
         padding: 12px 20px;
-    }
 
-
-
-    .products .slider
-    {
-        padding: 0 10px;
-    }
-
-    .products .slider .product .buy_link
-    {
-        width: auto;
-        padding-left: 30px;
+        line-height: 18px;
     }
 
 
@@ -719,10 +709,10 @@
 
     .modal .links a
     {
+        height: 50px;
+
         font-size: 16px;
         line-height: 50px;
-
-        height: 50px;
     }
 
 
@@ -757,5 +747,101 @@
     {
         width: 45px;
         height: 45px;
+    }
+
+
+
+    /*------------------------------
+        Product quike view modal
+    ------------------------------*/
+    .product_quike_view_info .images .thumbs
+    {
+        padding-inline: 0;
+    }
+
+
+
+    .product_quike_view_info .data
+    {
+        margin-top: 20px;
+    }
+
+
+    .product_quike_view_info .product_name
+    {
+        font-size: 18px;
+    }
+
+
+    .product_quike_view_info .amount
+    {
+        width: 140px;
+    }
+
+
+    .product_quike_view_info .total_price
+    {
+        margin-left: 4px;
+
+        font-size: 14px;
+    }
+
+
+    .product_quike_view_info .price
+    {
+        font-size: 22px;
+    }
+
+
+    .product_quike_view_info .buy_link
+    {
+        font-size: 16px;
+    }
+
+
+    .product_quike_view_info .buy_link small
+    {
+        font-size: 14px;
+    }
+
+
+    .product_quike_view_info .buy_link .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .product_quike_view_info .features .item .label
+    {
+        width: 120px;
+    }
+
+
+    .product_quike_view_info .features .item .val
+    {
+        width: calc(100% - 124px);
+    }
+
+
+
+    .product_quike_view_info .delivery
+    {
+        font-size: 12px;
+    }
+
+
+    .product_quike_view_info .delivery > .icon
+    {
+        width: 48px;
+        height: 29px;
+    }
+
+
+    .product_quike_view_info .delivery > .icon + *
+    {
+        width: calc(100% - 64px);
+
+        gap: 0;
     }
 }

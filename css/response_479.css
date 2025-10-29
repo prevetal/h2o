@@ -376,6 +376,19 @@
         height: 175px;
     }
 
+
+    .products .product .middle
+    {
+        display: none;
+    }
+
+
+    .products .product .price
+    {
+        text-align: left;
+    }
+
+
     .products .product .price .old
     {
         display: inline-block;
@@ -457,6 +470,25 @@
     .product_info .info .total_price
     {
         margin-left: 25px;
+    }
+
+
+    .product_info .info .buy_link
+    {
+        font-size: 16px;
+    }
+
+
+    .product_info .info .buy_link small
+    {
+        font-size: 14px;
+    }
+
+
+    .product_info .info .buy_link .icon
+    {
+        width: 24px;
+        height: 24px;
     }
 
 
@@ -683,5 +715,28 @@
     {
         padding-right: 60px;
         padding-left: 60px;
+    }
+
+
+
+    /*------------------------------
+        Product quike view modal
+    ------------------------------*/
+    #product_quike_view_modal
+    {
+        padding: 20px;
+    }
+
+
+
+    .product_quike_view_info .features .item .label
+    {
+        width: 160px;
+    }
+
+
+    .product_quike_view_info .features .item .val
+    {
+        width: calc(100% - 168px);
     }
 }

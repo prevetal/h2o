@@ -273,10 +273,13 @@
         height: 225px;
     }
 
+    .products .product .quike_view_btn
+    {
+        opacity: 1;
+    }
+
     .products .product .name
     {
-        margin-bottom: 10px;
-
         font-size: 16px;
         line-height: 22px;
     }
@@ -291,9 +294,23 @@
         font-size: 15px;
     }
 
+    .products .product .amount
+    {
+        width: 132px;
+        margin-right: -8px;
+    }
+
+    .products .product .amount .input,
+    .products .product .amount button
+    {
+        height: 40px;
+    }
+
     .products .product .buy_link
     {
-        margin-right: -10px;
+        width: 132px;
+        height: 40px;
+        margin-right: -8px;
     }
 
 
@@ -374,6 +391,12 @@
     .product_info .info .price .old
     {
         font-size: 20px;
+    }
+
+
+    .product_info .info .buy_link
+    {
+        height: 48px;
     }
 
 

@@ -169,12 +169,12 @@
 
     header .callback_link
     {
-        font-size: 12px;
-        line-height: 40px;
-
         height: 40px;
         margin-left: 15px;
         padding: 0 15px;
+
+        font-size: 12px;
+        line-height: 40px;
     }
 
 
@@ -279,12 +279,12 @@
 
     .main_slider .slide .title span
     {
-        line-height: 50px;
-
         display: block;
 
         height: 58px;
         margin: 10px 0 0;
+
+        line-height: 50px;
     }
 
     .main_slider .owl-carousel .owl-dots
@@ -405,10 +405,10 @@
 
     .about_text .bottom_text
     {
+        padding: 25px 30px;
+
         font-size: 18px;
         line-height: 26px;
-
-        padding: 25px 30px;
     }
 
 
@@ -439,10 +439,10 @@
 
     .tags_cloud a
     {
-        line-height: 30px;
-
         height: 30px;
         padding: 0 10px;
+
+        line-height: 30px;
     }
 
 
@@ -491,11 +491,11 @@
     .cart_info table td.price,
     .cart_info table td.price.total
     {
-        font-size: 18px;
-
         width: 33.333%;
         height: auto;
         min-height: 64px;
+
+        font-size: 18px;
     }
 
     .cart_info table td.price:not(.total)
@@ -635,30 +635,69 @@
         width: calc(50% + 1px);
     }
 
+
+    .products .product .quike_view_btn
+    {
+        bottom: -8px;
+
+        padding: 11px;
+
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
     .products .product .name
     {
         font-size: 14px;
         line-height: 20px;
     }
 
+
+    .products .product .amount
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    .products .product .price
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
     .products .product .buy_link
     {
-        font-size: 14px;
-
+        width: 100%;
+        margin-top: 12px;
         margin-right: 0;
-        padding: 0 0 0 26px;
 
-        border: none;
-        background-position: 0 50%;
+        font-size: 14px;
+    }
+
+
+    .products .product .buy_link small
+    {
+        font-size: 12px;
+    }
+
+
+    .products .product .buy_link .icon
+    {
+        width: 20px;
+        height: 20px;
     }
 
 
 
     .lk_menu
     {
-        font-size: 16px;
-
         margin-bottom: 15px;
+
+        font-size: 16px;
     }
 
     .lk_menu a
@@ -772,9 +811,9 @@
 
     .action_form .title
     {
-        font-size: 24px;
-
         margin-bottom: 25px;
+
+        font-size: 24px;
     }
 
     .action_form .form .submit
@@ -825,10 +864,10 @@
 
     .product_info .info .price
     {
+        margin-bottom: 15px;
+
         font-size: 30px;
         line-height: 34px;
-
-        margin-bottom: 15px;
     }
 
     .product_info .info .price .old
@@ -838,10 +877,10 @@
 
     .product_info .info .total_price
     {
-        font-size: 15px;
-
         margin-right: auto;
         margin-left: 20px;
+
+        font-size: 15px;
     }
 
     .product_info .info .buy_link
@@ -860,9 +899,9 @@
 
     .product_info .description
     {
-        line-height: 24px;
-
         padding: 20px 25px;
+
+        line-height: 24px;
     }
 
 
@@ -870,10 +909,10 @@
 
     .delivery_info .head .info
     {
-        font-size: 15px;
-
         width: 100%;
         margin-bottom: 35px;
+
+        font-size: 15px;
     }
 
     .delivery_info .head .info > * + *
@@ -907,32 +946,31 @@
     .delivery_info .time_info .region
     {
         display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         width: 100%;
         max-width: 100%;
         margin-bottom: 40px;
         margin-left: 0;
-
-        justify-content: space-between;
-        align-items: flex-start;
-        align-content: flex-start;
-        flex-wrap: wrap;
     }
 
     .delivery_info .time_info .name
     {
-        font-size: 20px;
-        line-height: 22px;
-
         width: 100%;
         margin-bottom: 15px;
+
+        font-size: 20px;
+        line-height: 22px;
     }
 
     .delivery_info .time_info .flex
     {
-        width: calc(100% - 130px);
-
         flex-wrap: wrap;
+
+        width: calc(100% - 130px);
     }
 
     .delivery_info .time_info .flex + .flex
@@ -942,17 +980,16 @@
 
     .delivery_info .time_info .days
     {
-        font-size: 15px;
-        line-height: 44px;
-
         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
 
         width: 100%;
 
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
+        font-size: 15px;
+        line-height: 44px;
     }
 
     .delivery_info .time_info .days > *
@@ -962,6 +999,8 @@
 
     .delivery_info .time_info .time
     {
+        justify-content: center;
+
         width: 100%;
         height: auto;
         margin-top: 10px;
@@ -971,8 +1010,6 @@
         text-align: center;
 
         background: url(../images/mob_bg_delivery_time.png) 50% 0 no-repeat;
-
-        justify-content: center;
     }
 
     .delivery_info .time_info .time.mini
@@ -986,11 +1023,11 @@
 
     .delivery_info .note
     {
-        line-height: 22px;
-
         margin-right: -20px;
         margin-left: -20px;
         padding: 25px 20px;
+
+        line-height: 22px;
     }
 
 
@@ -1145,10 +1182,10 @@
 
     footer .col_right .apps
     {
+        justify-content: center;
+
         width: 100%;
         margin-bottom: 20px;
-
-        justify-content: center;
     }
 
 
@@ -1178,5 +1215,58 @@
     {
         padding-right: 89px;
         padding-left: 89px;
+    }
+
+
+
+    /*------------------------------
+        Product quike view modal
+    ------------------------------*/
+    #product_quike_view_modal
+    {
+        padding: 24px;
+    }
+
+
+
+    .product_quike_view_info .images
+    {
+        width: 100%;
+    }
+
+
+
+    .product_quike_view_info .data
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    .product_quike_view_info .features .item .label
+    {
+        width: 190px;
+    }
+
+
+    .product_quike_view_info .features .item .val
+    {
+        width: calc(100% - 198px);
+    }
+
+
+
+    .product_quike_view_info .delivery
+    {
+        width: 100%;
+    }
+
+
+
+    .product_quike_view_info .more_link
+    {
+        width: 100%;
+        margin-top: 20px;
     }
 }

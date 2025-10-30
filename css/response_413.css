@@ -799,11 +799,16 @@
     }
 
 
-    .product_quike_view_info .buy_link img
+    .product_quike_view_info .buy_link small
+    {
+        font-size: 14px;
+    }
+
+
+    .product_quike_view_info .buy_link .icon
     {
         width: 24px;
         height: 24px;
-        margin-right: 8px;
     }
 
 

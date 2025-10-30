@@ -479,11 +479,16 @@
     }
 
 
-    .product_info .info .buy_link img
+    .product_info .info .buy_link small
+    {
+        font-size: 14px;
+    }
+
+
+    .product_info .info .buy_link .icon
     {
         width: 24px;
         height: 24px;
-        margin-right: 8px;
     }
 
 

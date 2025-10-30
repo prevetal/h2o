@@ -679,7 +679,13 @@
     }
 
 
-    .products .product .buy_link img
+    .products .product .buy_link small
+    {
+        font-size: 12px;
+    }
+
+
+    .products .product .buy_link .icon
     {
         width: 20px;
         height: 20px;

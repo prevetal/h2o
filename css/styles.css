@@ -3534,7 +3534,7 @@ aside > * + *
     height: 43px;
     margin-right: -15px;
 
-    font: 700 15px var(--font_family);
+    font: 700 15px/100% var(--font_family);
 
     cursor: pointer;
 
@@ -3798,7 +3798,7 @@ aside > * + *
     margin-top: 20px;
     padding: 0 20px;
 
-    font: 700 18px/64px var(--font_family);
+    font: 700 18px/100% var(--font_family);
 
     cursor: pointer;
     transition: .2s linear;
@@ -7513,6 +7513,7 @@ footer .socials a:hover
     font-family: var(--font_family);
     font-size: 18px;
     font-weight: 700;
+    line-height: 100%;
 
     cursor: pointer;
     transition: .2s linear;

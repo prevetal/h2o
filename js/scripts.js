@@ -222,16 +222,16 @@ $(function () {
 
 
 	// Добавление товара в корзину
-	$('body').on('click', '.buy_link', function (e) {
-		e.preventDefault()
+	// $('body').on('click', '.buy_link', function (e) {
+	// 	e.preventDefault()
 
-		$.fancybox.close()
+	// 	$.fancybox.close()
 
-		$.fancybox.open({
-			src: '#cart_success_modal',
-			type: 'inline'
-		})
-	})
+	// 	$.fancybox.open({
+	// 		src: '#cart_success_modal',
+	// 		type: 'inline'
+	// 	})
+	// })
 
 
 	// Отправка форм

@@ -3211,8 +3211,6 @@ aside > * + *
 
     padding: 20px 30px;
 
-    text-decoration: none;
-
     color: #000;
     border: 1px solid #b9d2e7;
     border-radius: 3px;
@@ -3320,6 +3318,10 @@ aside > * + *
 
     height: 275px;
     margin-bottom: 20px;
+
+    text-decoration: none;
+
+    color: currentColor;
 }
 
 
@@ -3384,7 +3386,18 @@ aside > * + *
     color: #0a8dd8;
 }
 
-.products .product:hover .name
+.products .product .name a
+{
+    display: inline-block;
+
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+.products .product:hover .name a
 {
     color: #000;
 }

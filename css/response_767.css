@@ -640,6 +640,8 @@
     {
         bottom: -8px;
 
+        display: none;
+
         padding: 11px;
 
         font-size: 13px;

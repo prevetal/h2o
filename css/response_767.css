@@ -119,7 +119,8 @@
     ---------------*/
     header .city,
     header .socials,
-    header .time
+    header .time,
+    header .bonuses
     {
         display: none;
     }
@@ -567,6 +568,32 @@
     }
 
 
+    .cart_info .bonuses
+    {
+        gap: 10px;
+    }
+
+
+    .cart_info .bonuses .program
+    {
+        width: 100%;
+        padding: 16px;
+    }
+
+
+    .cart_info .bonuses .program .icon + *
+    {
+        gap: 8px;
+    }
+
+
+    .cart_info .bonuses .use
+    {
+        width: 100%;
+        padding: 16px;
+    }
+
+
 
     .cart_info .cart_links a
     {
@@ -656,6 +683,43 @@
     }
 
 
+    .products .product .bonus
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .products .product .bonus .hover
+    {
+        width: 212px;
+    }
+
+
+    .products .product .bonus .hover img
+    {
+        width: 24px;
+    }
+
+
+    .products .product .bonus .hover img + *
+    {
+        width: calc(100% - 32px);
+    }
+
+
+    .products .product .bonus .hover .label,
+    .products .product .bonus .hover .val
+    {
+        font-size: 12px;
+    }
+
+
+    .products .product .bonus .hover .exp
+    {
+        font-size: 11px;
+    }
+
+
     .products .product .amount
     {
         width: 100%;
@@ -697,14 +761,55 @@
 
     .lk_menu
     {
-        margin-bottom: 15px;
+        display: grid;
+        overflow: auto;
+        justify-content: flex-start;
+
+        width: calc(100% + 40px);
+        margin-block: 0 15px;
+        margin-inline: -20px;
+        padding-inline: 20px;
 
         font-size: 16px;
+
+        gap: 32px;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 20px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
     }
+
+
+    .lk_menu::-webkit-scrollbar
+    {
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+
+    .lk_menu::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .lk_menu > *
+    {
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
 
     .lk_menu a
     {
-        margin: 0 20px 10px;
+        margin: 0;
     }
 
 
@@ -1161,6 +1266,69 @@
     .map_block .cities > *
     {
         width: calc(33.333% - 20px);
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info .my_bonuses .title
+    {
+        margin-bottom: 16px;
+
+        font-size: 20px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .val
+    {
+        font-size: 30px;
+    }
+
+
+
+    .bonuses_info .how_work .title
+    {
+        margin-bottom: 16px;
+
+        font-size: 20px;
+    }
+
+
+
+    .bonuses_info .history .title
+    {
+        margin-bottom: 16px;
+
+        font-size: 20px;
+    }
+
+
+    .bonuses_info .history .item
+    {
+        row-gap: 0;
+    }
+
+
+    .bonuses_info .history .item .info
+    {
+        width: calc(100% - 52px);
+    }
+
+
+    .bonuses_info .history .item .desc
+    {
+        width: auto;
+        margin-left: 52px;
+    }
+
+
+    .bonuses_info .history .item .desc span
+    {
+        display: inline;
+
+        font-size: 14px;
     }
 
 

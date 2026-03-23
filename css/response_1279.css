@@ -222,12 +222,21 @@
 
     .cart_info .promocode
     {
+        width: 100%;
         padding: 30px 50px;
+    }
+
+
+    .cart_info .bonuses
+    {
+        width: 100%;
+        margin-top: 20px;
     }
 
 
     .cart_info .cart_total
     {
+        margin-top: 20px;
         padding: 30px 7%;
     }
 
@@ -293,6 +302,61 @@
     {
         font-size: 15px;
     }
+
+
+    .products .product .bonus .info
+    {
+        pointer-events: auto;
+    }
+
+
+    .products .product .bonus .hover
+    {
+        left: -12px;
+
+        width: 238px;
+        padding: 16px;
+    }
+
+
+    .products .product .bonus .hover img
+    {
+        width: 28px;
+    }
+
+
+    .products .product .bonus .hover img + *
+    {
+        width: calc(100% - 40px);
+
+        gap: 4px;
+    }
+
+
+    .products .product .bonus .hover .label
+    {
+        padding-right: 20px;
+    }
+
+
+    .products .product .bonus .hover .label,
+    .products .product .bonus .hover .val
+    {
+        font-size: 14px;
+    }
+
+
+    .products .product .bonus .hover .exp
+    {
+        font-size: 13px;
+    }
+
+
+    .products .product .bonus .hover .close_btn
+    {
+        display: flex;
+    }
+
 
     .products .product .amount
     {
@@ -403,6 +467,18 @@
     .product_info .info .certificate
     {
         line-height: 130%;
+    }
+
+
+    .product_info .info .bonuses .program .exp
+    {
+        font-size: 14px;
+    }
+
+
+    .product_info .info .bonuses .use .notice
+    {
+        font-size: 13px;
     }
 
 
@@ -530,6 +606,104 @@
     {
         width: calc(50% + 40px);
         padding: 0;
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info
+    {
+        padding-top: 12px;
+    }
+
+
+    .bonuses_info .col
+    {
+        width: 440px;
+    }
+
+
+
+    .bonuses_info .my_bonuses .available
+    {
+        padding: 20px;
+    }
+
+
+    .bonuses_info .my_bonuses .available img
+    {
+        margin-right: 20px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .label
+    {
+        margin-bottom: 6px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .val
+    {
+        font-size: 32px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .btn
+    {
+        height: 44px;
+        padding-inline: 20px;
+
+        font-size: 14px;
+    }
+
+
+
+    .bonuses_info .my_bonuses .amounts
+    {
+        margin-top: 8px;
+        padding: 20px 48px;
+    }
+
+
+
+    .bonuses_info .how_work
+    {
+        margin-top: 48px;
+    }
+
+
+
+    .bonuses_info .history
+    {
+        width: calc(100% - 460px);
+    }
+
+
+    .bonuses_info .history .icon
+    {
+        width: 36px;
+    }
+
+
+    .bonuses_info .history .item .info
+    {
+        width: calc(100% - 224px);
+    }
+
+
+    .bonuses_info .history .item .desc
+    {
+        width: 56px;
+    }
+
+
+    .bonuses_info .history .item .price
+    {
+        width: 84px;
+
+        font-size: 18px;
     }
 
 

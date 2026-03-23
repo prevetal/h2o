@@ -400,12 +400,6 @@
 
 
 
-    .lk_menu a
-    {
-        margin: 0 12px 10px;
-    }
-
-
     .lk .personal .info .item .name,
     .lk .personal .info .item .val
     {
@@ -660,6 +654,70 @@
 
         font-size: 15px;
         line-height: 40px;
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info .my_bonuses .available
+    {
+        padding: 16px;
+    }
+
+
+    .bonuses_info .my_bonuses .available img
+    {
+        width: 30px;
+        margin-right: 12px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .label
+    {
+        display: none;
+    }
+
+
+    .bonuses_info .my_bonuses .available .val
+    {
+        font-size: 24px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .btn
+    {
+        height: 40px;
+        padding-inline: 16px;
+
+        font-size: 12px;
+    }
+
+
+
+    .bonuses_info .my_bonuses .amounts
+    {
+        padding: 16px;
+    }
+
+
+    .bonuses_info .my_bonuses .amounts > *
+    {
+        gap: 4px;
+    }
+
+
+    .bonuses_info .my_bonuses .amounts .label
+    {
+        font-size: 14px;
+    }
+
+
+
+    .bonuses_info .history .item .info
+    {
+        font-size: 14px;
     }
 
 

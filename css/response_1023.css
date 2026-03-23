@@ -693,6 +693,13 @@
     }
 
 
+    .products .product .bonus .hover
+    {
+        width: 235px;
+        padding: 12px;
+    }
+
+
 
     .lk_menu
     {
@@ -1101,6 +1108,43 @@
     .map_block .cities > *
     {
         width: calc(25% - 20px);
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info .col
+    {
+        width: 100%;
+    }
+
+
+
+    .bonuses_info .how_work
+    {
+        margin-top: 40px;
+    }
+
+
+    .bonuses_info .how_work .items
+    {
+        gap: 12px;
+    }
+
+
+
+    .bonuses_info .history
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .bonuses_info .history .list
+    {
+        width: 100%;
     }
 
 

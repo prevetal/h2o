@@ -10,6 +10,13 @@
 
 
 
+    .page_title .logout
+    {
+        display: block;
+    }
+
+
+
     .block_head .title
     {
         line-height: 30px;
@@ -119,7 +126,8 @@
     ---------------*/
     header .city,
     header .socials,
-    header .time
+    header .time,
+    header .bonuses
     {
         display: none;
     }
@@ -567,6 +575,32 @@
     }
 
 
+    .cart_info .bonuses
+    {
+        gap: 10px;
+    }
+
+
+    .cart_info .bonuses .program
+    {
+        width: 100%;
+        padding: 16px;
+    }
+
+
+    .cart_info .bonuses .program .icon + *
+    {
+        gap: 8px;
+    }
+
+
+    .cart_info .bonuses .use
+    {
+        width: 100%;
+        padding: 16px;
+    }
+
+
 
     .cart_info .cart_links a
     {
@@ -656,6 +690,57 @@
     }
 
 
+    .products .product .bonus
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .products .product .bonus .info:before
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .products .product .bonus .hover
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .products .product .bonus .hover .close_btn
+    {
+        top: 4px;
+        right: 4px;
+    }
+
+
+    .products .product .bonus .hover img
+    {
+        width: 24px;
+    }
+
+
+    .products .product .bonus .hover img + *
+    {
+        width: calc(100% - 32px);
+    }
+
+
+    .products .product .bonus .hover .label,
+    .products .product .bonus .hover .val
+    {
+        font-size: 12px;
+    }
+
+
+    .products .product .bonus .hover .exp
+    {
+        font-size: 11px;
+    }
+
+
     .products .product .amount
     {
         width: 100%;
@@ -697,14 +782,39 @@
 
     .lk_menu
     {
-        margin-bottom: 15px;
+        flex-wrap: nowrap;
 
-        font-size: 16px;
+        width: calc(100% + 40px);
+        margin-block: 0 15px;
+        margin-inline: -20px;
+        padding-inline: 20px;
+
+        font-size: 14px;
+
+        border-block: 1px solid #bedbff;
     }
+
 
     .lk_menu a
     {
-        margin: 0 20px 10px;
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    .lk_menu a + a
+    {
+        border-left: 1px solid #bedbff;
+    }
+
+
+    .lk_menu a.mob_hide
+    {
+        display: none;
     }
 
 
@@ -864,18 +974,25 @@
         padding: 20px 0;
     }
 
+
     .product_info .info .price
     {
         margin-bottom: 15px;
-
-        font-size: 30px;
-        line-height: 34px;
     }
+
 
     .product_info .info .price .old
     {
         font-size: 18px;
     }
+
+
+    .product_info .info .price .current
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
 
     .product_info .info .total_price
     {
@@ -1161,6 +1278,69 @@
     .map_block .cities > *
     {
         width: calc(33.333% - 20px);
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info .my_bonuses .title
+    {
+        margin-bottom: 16px;
+
+        font-size: 20px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .val
+    {
+        font-size: 30px;
+    }
+
+
+
+    .bonuses_info .how_work .title
+    {
+        margin-bottom: 16px;
+
+        font-size: 20px;
+    }
+
+
+
+    .bonuses_info .history .title
+    {
+        margin-bottom: 16px;
+
+        font-size: 20px;
+    }
+
+
+    .bonuses_info .history .item
+    {
+        row-gap: 0;
+    }
+
+
+    .bonuses_info .history .item .info
+    {
+        width: calc(100% - 52px);
+    }
+
+
+    .bonuses_info .history .item .desc
+    {
+        width: auto;
+        margin-left: 52px;
+    }
+
+
+    .bonuses_info .history .item .desc span
+    {
+        display: inline;
+
+        font-size: 14px;
     }
 
 

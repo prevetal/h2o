@@ -321,6 +321,22 @@ $(function () {
 
 		$(this).toggleClass('active')
 	})
+
+
+	// Бонусы в товаре
+	$('.product .bonus .info').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+	})
+
+	$('.product .bonus .hover .close_btn').click(function(e) {
+		e.preventDefault()
+
+		const parent = $(this).closest('.bonus')
+
+		parent.find('.info').toggleClass('active')
+	})
 })
 
 

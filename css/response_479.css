@@ -377,33 +377,38 @@
     }
 
 
-    .products .product .middle
+    .products .product .bonus .hover
     {
-        display: none;
+        padding: 8px;
     }
 
 
-    .products .product .price
+    .products .product .bonus .hover img
     {
-        text-align: left;
+        width: 20px;
     }
 
 
-    .products .product .price .old
+    .products .product .bonus .hover img + *
     {
-        display: inline-block;
+        width: calc(100% - 28px);
+    }
 
-        margin-right: 10px;
 
-        vertical-align: top;
+    .products .product .bonus .hover .label,
+    .products .product .bonus .hover .val,
+    .products .product .bonus .hover .exp
+    {
+        font-size: 10px;
     }
 
 
 
-    .lk_menu a
+    .lk_menu
     {
-        margin: 0 12px 10px;
+        font-size: 12px;
     }
+
 
 
     .lk .personal .info .item .name,
@@ -450,14 +455,6 @@
     .product_info .features .item .val
     {
         width: calc(100% - 185px);
-    }
-
-
-    .product_info .info .price
-    {
-        justify-content: center;
-
-        text-align: center;
     }
 
 
@@ -660,6 +657,70 @@
 
         font-size: 15px;
         line-height: 40px;
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info .my_bonuses .available
+    {
+        padding: 16px;
+    }
+
+
+    .bonuses_info .my_bonuses .available img
+    {
+        width: 30px;
+        margin-right: 12px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .label
+    {
+        display: none;
+    }
+
+
+    .bonuses_info .my_bonuses .available .val
+    {
+        font-size: 24px;
+    }
+
+
+    .bonuses_info .my_bonuses .available .btn
+    {
+        height: 40px;
+        padding-inline: 16px;
+
+        font-size: 12px;
+    }
+
+
+
+    .bonuses_info .my_bonuses .amounts
+    {
+        padding: 16px;
+    }
+
+
+    .bonuses_info .my_bonuses .amounts > *
+    {
+        gap: 4px;
+    }
+
+
+    .bonuses_info .my_bonuses .amounts .label
+    {
+        font-size: 14px;
+    }
+
+
+
+    .bonuses_info .history .item .info
+    {
+        font-size: 14px;
     }
 
 

@@ -693,6 +693,12 @@
     }
 
 
+    .products .product .bonus .hover
+    {
+        padding: 12px;
+    }
+
+
 
     .lk_menu
     {
@@ -826,6 +832,21 @@
         border-top: 2px solid #f1f6fa;
         border-left: none;
     }
+
+
+    .product_info .info .price > *:first-child
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        margin-right: 0;
+
+        gap: 10px;
+    }
+
 
     .product_info .info .buy_link
     {
@@ -1101,6 +1122,43 @@
     .map_block .cities > *
     {
         width: calc(25% - 20px);
+    }
+
+
+
+    /*-----------------
+    Bonuses info
+    -----------------*/
+    .bonuses_info .col
+    {
+        width: 100%;
+    }
+
+
+
+    .bonuses_info .how_work
+    {
+        margin-top: 40px;
+    }
+
+
+    .bonuses_info .how_work .items
+    {
+        gap: 12px;
+    }
+
+
+
+    .bonuses_info .history
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .bonuses_info .history .list
+    {
+        width: 100%;
     }
 
 

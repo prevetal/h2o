@@ -312,9 +312,8 @@
 
     .products .product .bonus .hover
     {
-        left: -12px;
-
-        width: 238px;
+        width: calc(100% + 26px);
+        margin-bottom: 8px;
         padding: 16px;
     }
 
@@ -446,15 +445,23 @@
     }
 
 
-    .product_info .info .price
+    .product_info .info .price > *:first-child
     {
-        font-size: 32px;
-        line-height: 36px;
+        width: auto;
+        margin-right: auto;
     }
+
 
     .product_info .info .price .old
     {
         font-size: 20px;
+    }
+
+
+    .product_info .info .price .current
+    {
+        font-size: 32px;
+        line-height: 36px;
     }
 
 

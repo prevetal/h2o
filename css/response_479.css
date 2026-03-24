@@ -377,25 +377,36 @@
     }
 
 
-    .products .product .middle
+    .products .product .bonus .hover
     {
-        display: none;
+        padding: 8px;
     }
 
 
-    .products .product .price
+    .products .product .bonus .hover img
     {
-        text-align: left;
+        width: 20px;
     }
 
 
-    .products .product .price .old
+    .products .product .bonus .hover img + *
     {
-        display: inline-block;
+        width: calc(100% - 28px);
+    }
 
-        margin-right: 10px;
 
-        vertical-align: top;
+    .products .product .bonus .hover .label,
+    .products .product .bonus .hover .val,
+    .products .product .bonus .hover .exp
+    {
+        font-size: 10px;
+    }
+
+
+
+    .lk_menu
+    {
+        font-size: 12px;
     }
 
 
@@ -444,14 +455,6 @@
     .product_info .features .item .val
     {
         width: calc(100% - 185px);
-    }
-
-
-    .product_info .info .price
-    {
-        justify-content: center;
-
-        text-align: center;
     }
 
 

@@ -337,6 +337,12 @@ $(function () {
 
 		parent.find('.info').toggleClass('active')
 	})
+
+	$(document).click(e => {
+		if ($(e.target).closest('.bonus').length === 0) {
+			$('.product .bonus .info').removeClass('active')
+		}
+	})
 })
 
 

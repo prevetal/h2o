@@ -489,26 +489,6 @@
     }
 
 
-    .product_info .info .certificate
-    {
-        font-size: 15px;
-    }
-
-
-    .product_info .info .certificate .thumb
-    {
-        width: 50px;
-        padding: 2px;
-    }
-
-
-    .product_info .info .certificate .thumb:after
-    {
-        width: 19px;
-        height: 26px;
-    }
-
-
 
     .certs .flex
     {
@@ -769,6 +749,12 @@
     .modal
     {
         padding: 40px 30px;
+    }
+
+
+    #registry_modal .modal_title
+    {
+        font-size: 20px;
     }
 
 

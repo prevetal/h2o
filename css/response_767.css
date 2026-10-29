@@ -49,8 +49,9 @@
 
     .text_block .columns
     {
-        column-count: 1;
         column-gap: 0;
+
+        column-count: 1;
     }
 
 

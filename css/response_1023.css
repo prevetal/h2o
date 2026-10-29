@@ -127,6 +127,7 @@
     header .links
     {
         position: absolute;
+        z-index: 999;
         top: -10px;
         left: 0;
 
@@ -134,8 +135,6 @@
 
         width: 100%;
         padding: 10px 75px 10px 20px;
-
-        z-index: 999;
 
         background: #0b7fc1;
     }
@@ -172,6 +171,7 @@
     header .menu
     {
         position: absolute;
+        z-index: 999;
         top: 50px;
         left: 0;
 
@@ -180,8 +180,6 @@
         width: 100%;
         margin: 0;
         padding: 10px 0 15px;
-
-        z-index: 999;
 
         background: #0a8dd8;
 
@@ -841,10 +839,9 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: flex-start;
+        gap: 10px;
 
         margin-right: 0;
-
-        gap: 10px;
     }
 
 
@@ -858,12 +855,6 @@
     .product_info .info .favorite_btn
     {
         margin-top: 0;
-    }
-
-
-    .product_info .info .delivery
-    {
-        font-size: 14px;
     }
 
 
@@ -1221,10 +1212,9 @@
     #city_modal .top
     {
         display: none;
+        gap: 8px;
 
         margin-top: 32px;
-
-        gap: 8px;
     }
 
 
@@ -1301,9 +1291,9 @@
 
     .product_quike_view_info .images
     {
-        width: 360px;
-
         gap: 20px;
+
+        width: 360px;
     }
 
 
@@ -1375,9 +1365,9 @@
 
     .product_quike_view_info .delivery > .icon + *
     {
-        width: calc(100% - 74px);
-
         gap: 2px;
+
+        width: calc(100% - 74px);
     }
 
 

@@ -357,27 +357,39 @@
 
 
 								<div class="delivery">
-									<img src="images/delivery_info.svg" alt="" class="icon">
+									<div class="icon"></div>
 
 									<div>
-										Доставка воды в <button class="btn city_btn">Одинцово</button> собственной службой <span>завтра, бесплатно</span>
+										<div class="title">Доставка воды в <button class="btn city_btn">Одинцово</button> собственной службой</div>
 
-										<div class="tooltip">
-											<div class="icon">?</div>
+										<div class="desc">
+											завтра, бесплатно
 
-											<div class="text">При заказе от двух бутылей или от 1000 р.</div>
+											<div class="tooltip">
+												<div class="icon">?</div>
+
+												<div class="text">При заказе от двух бутылей или от 1000 р.</div>
+											</div>
 										</div>
 									</div>
 								</div>
 
 
-								<a href="/" class="certificate">
-									<div class="thumb">
-										<img src="images/tmp/certificate_img.jpg" alt="" class="img" loading="lazy">
-									</div>
+								<div class="certificate">
+									<div class="icon"></div>
 
-									<span>Сертификат на товар</span>
-								</a>
+									<div>
+										<a href="images/tmp/product_cert_img.jpg" class="btn fancy_img">Сертификат на товар</a>
+
+										<div class="desc">Официальный документ о качестве и безопасности продукции</div>
+
+										<a href="#registry_modal" class="check_btn modal_link">
+											<span class="icon"></span>
+
+											<span>Проверить в реестре Росаккредитации</span>
+										</a>
+									</div>
+								</div>
 
 
 								<div class="bottom">
@@ -571,6 +583,29 @@
 			</footer>
 			<!-- End Подвал -->
 		</div>
+
+
+		<section class="modal" id="registry_modal" aria-labelledby="registry_modal_title">
+			<div class="modal_title" id="registry_modal_title">Реестр сертификатов соответствия</div>
+
+			<div class="items">
+				<div class="item">
+					<div>
+						<div class="title">
+							<span class="check_icon"></span>
+
+							<span>Безопасно</span>
+						</div>
+
+						<div class="desc">
+							Подтверждено документами из <a href="https://pub.fsa.gov.ru/rds/declaration/view/17280615/common" target="_blank" rel="noopener">реестра Росаккредитации</a> (Архыз, Судогодская, Эльбрусинка детская)
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button type="button" class="btn close">Понятно</button>
+		</section>
 
 
 		<section class="modal" id="callback_modal">

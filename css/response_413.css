@@ -840,8 +840,8 @@
 
     .product_quike_view_info .delivery > .icon + *
     {
-        width: calc(100% - 64px);
-
         gap: 0;
+
+        width: calc(100% - 64px);
     }
 }
